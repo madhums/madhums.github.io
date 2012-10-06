@@ -183,6 +183,9 @@ h1 a, h1 a:hover {
 .posts h3 {
   margin: 0;
   font-size: 18px;
+  background: #f9f9f9;
+  border-radius: 4px;
+  margin: 10px 0;
 }
 .posts h3 a {
   display: block;
@@ -207,7 +210,7 @@ h1 a, h1 a:hover {
 ------------------------- */
 .post {
   position: relative;
-  margin-bottom: 84px;
+  margin-bottom: 50px;
 }
 .post:after {
   display: block;
