@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [dotfiles, development]
+categories: [dotfiles, development, bash]
 tumblr_id: 29122941812
 date: 2012-08-10 13:43:00 UTC
 title: my development environment setup!
@@ -12,9 +12,9 @@ dotfiles are great way to manage your development environment. After doing thing
 
 This is how I have organized my dev box. 
 
-`~/local` - all custom built stuff (servers, db servers etc)    
-`~/code` - all the projects you work on    
-`~/bin` - custom bash scripts if you are using any    
+`~/local` - all custom built stuff (servers, db servers etc)
+`~/code` - all the projects you work on
+`~/bin` - custom bash scripts if you are using any
 
 My dotfiles contain the following
 
@@ -24,4 +24,12 @@ My dotfiles contain the following
   * `aliases` - some alias commands
   * `paths` - exports some custom paths (~/bin for example)
   * `prompt` - PS1 which shows git branch
-  * `e
+  * `extras` - which has some custom functions defined
+  * `paths` - has some custom paths that I have added to `$PATH`
+  * `bookmarks` - is a simple tool to bookmark any folder. You can use
+    it like `$ bookmark rails` and then `$ go rails`
+
+I also use [z](http://github.com/rupa/z) which is a folder jumping tool. You should definitely try
+this! If you are planning to install [my dotfiles](https://github.com/madhums/dotfiles) make sure you have the
+above mentioned folders created. I use a mac and my favourite font is
+Menlo 13pt. This is how it [looks](http://f.cl.ly/items/1p3F3P473H2C0l3M1e2I/Screen%20Shot%202012-10-08%20at%201.19.12%20AM.png)

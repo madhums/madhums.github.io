@@ -48,7 +48,8 @@ Modules used
 ## Anatomy of app.js file
 The app.js file does all the bootstrapping by `require`-ing all the controllers, models and middlewares.
 
-<pre  class="prettyprint lang-js"><code>/* Main application entry file. Please note, the order of loading is important.
+```js
+/* Main application entry file. Please note, the order of loading is important.
  * Configuration loading and booting of controllers and custom error handlers */
 
 var express = require('express')
@@ -90,7 +91,7 @@ everyauth.helpExpress(app, { userAlias: 'current_user' })
 var port = process.env.PORT || 3000
 app.listen(port)
 console.log('Express app started on port '+port)
-</code></pre>
+```
 
 As you can see, we can break the app.js into 5 parts. Bootstrapping
 
@@ -108,7 +109,8 @@ You can also use [npm config](http://npmjs.org/doc/config.html).
 ## 2. Models `./app/models/`
 The model files contain the schema, methods, pre-save hooks, pre-delete hooks, validations and other background processing stuff.
 
-<pre class="prettyprint lang-js"><code>// Article schema
+```js
+// Article schema
 
 var ArticleSchema = new Schema({
     title       : {type : String, default : '', trim : true}
@@ -136,24 +138,27 @@ ArticleSchema.methods.uploadPhotos = function (file, callback) {
 })
 
 mongoose.model('Article', ArticleSchema)
-</code></pre>
+```
+
 As you can see `user` here is a ref field (like a foreign key). If you want to load this field, then you need to use populate.
 
-<pre class="prettyprint lang-js"><code>Article
+```js
+Article
   .findOne({ title: 'abc' })
   .populate('user')
   .run(function (err, article) {
     // do something
     // article.user would be populated with fields in user schema
   })
-</code></pre>
+```
 
 There are many other awesome stuff mongoose provides. Do take a look at mongoose [tests](https://github.com/LearnBoost/mongoose/tree/master/test) and the [documentation](http://mongoosejs.com/). 
 
 ## 3. Controllers `./app/controllers/`
 The controller files contain the routes, routing middlewares, business logic, template rendering and dispatching.
 
-<pre class="prettyprint lang-js"><code>module.exports = function(app, auth){
+```js
+module.exports = function(app, auth){
 
   // Edit an article
   app.get('/article/:id/edit', auth.requiresLogin, auth.article.hasAuthorization, function(req, res){
@@ -172,13 +177,15 @@ The controller files contain the routes, routing middlewares, business logic, te
     })
   })
 }
-</code></pre>
+```
+
 As you can see, the articles controller is passed with `app` and `auth` arguments. Here, auth is used as routing middleware. If you take a look at `./authorization.js`, each function is a routing middleware. Based on type of user and requested article, you can control the authorization using the routing middleware.
 
 ## 4. Settings `./settings.js`
 The settings file deals with express specific settings. It sets the view engine, some dynamic view helpers and other environment specific settings.
 
-<pre class="prettyprint lang-js"><code>app.configure(function(){
+```js
+app.configure(function(){
 
   // set views path, template engine and default layout
   app.set('views', __dirname + '/app/views')
@@ -268,7 +275,7 @@ app.configure('production', function(){
 })
 
 app.use(express.logger(':method :url :status'))
-</code></pre>
+```
 
 **Please note that the order of `use`-ing middlewares is very important!**
 
@@ -280,8 +287,7 @@ The demo app uses [jade](http://jade-lang.com/) as template engine. The views ar
 
 **Flash messages**    
 I am using [express messages](http://github.com/visionmedia/express-messages) to generate flash messages. All you need to do is set req.flash in your controller
-<pre class="prettyprint lang-js"><code>req.flash('notice', 'Created successfully')
-</code></pre> and in your template, just use `!= messages()` 
+`req.flash('notice', 'Created successfully')` and in your template, just use `!= messages()` 
 
 The current demo app uses [twitter bootstrap](http://twitter.github.com/bootstrap) for UI, if you checkout the earlier commits/tags, you can use [stylus](http://learnboost.github.com/stylus/).
 
@@ -290,6 +296,7 @@ Express 3.x is in beta, anytime now we can expect a stable release (and even mon
 
 **Update:** The demo has been updated to use all the latest modules. More authentications have been added using passport.js. Do take a look at the source!
 
-**Resources**:    
-[demo site](http://nodejs-express-demo.herokuapp.com)    
-[source code on github](http://github.com/madhums/nodejs-express-mongoose-demo)    
+**Resources**:
+
+* [demo site](http://nodejs-express-demo.herokuapp.com)
+* [source code on github](http://github.com/madhums/nodejs-express-mongoose-demo)

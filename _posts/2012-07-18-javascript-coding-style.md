@@ -14,7 +14,9 @@ This is the javascript coding style I follow
 4. Use single quotes
 
 For example
-<pre class="prettyprint lang-js"><code>var express = require('express')
+
+```js
+var express = require('express')
   , User = mongoose.model('User')
   , auth = require('./authorization')
   , arr = [1, 2, 3, 4]
@@ -29,7 +31,7 @@ User
     }
     res.json(user)
   })
-</code></pre>
+```
 
 Other styling guides out there:
 

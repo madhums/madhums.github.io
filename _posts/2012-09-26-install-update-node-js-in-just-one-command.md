@@ -10,16 +10,20 @@ A simple script to install/update the much frequently updated [node.js](http://n
 
 Here's what you have to do to install/update node.js and npm to the version you want in just 1 command
 
-<pre><code>curl https://raw.github.com/gist/3791075 | sh -s 0.8.10</code></pre>
+```sh
+$ curl https://raw.github.com/gist/3791075 | sh -s 0.8.10
+```
 
 Its a bit difficult to remember the url everytime you want to update, so you can create a simple alias function which does the job. Here's how
 
 Put the below in your `~/.bash_profile`
 
-<pre><code>function update-node {
+```sh
+function update-node {
   version=$1
   curl https://raw.github.com/gist/3791075 | sh -s $version
-}</code></pre>
+}
+```
 
 Now you can simply run `update-node 0.8.10` !
 
