@@ -8,9 +8,9 @@ title: Breaking down app.js file - nodejs, express, mongoose
 
 Ok, this post is long overdue! 
 
-**tl;dr** : _This blog post explains how to structure and organize your node.js application. Its an anatomy of [nodejs-express-demo](nodejs-express-demo.herokuapp.com) app_
+**tl;dr** : _This blog post explains how to structure and organize your node.js application. Its an anatomy of [nodejs-express-demo](http://nodejs-express-demo.herokuapp.com) app_
 
-The [demo](nodejs-express-demo.herokuapp.com) app illustrates the following
+The [demo](http://nodejs-express-demo.herokuapp.com) app illustrates the following
 
 1. MVC architecture using express
 2. Custom error handling in express
@@ -29,7 +29,7 @@ The [demo](nodejs-express-demo.herokuapp.com) app illustrates the following
 15. and many more...
 
 
-A year back I started working on [node.js](nodejs.org) and like always I started with a CRUD app. The examples and sample applications that were available were mostly single page apps (written in  a single file `server.js` or `app.js`). After going through dozens of sample apps and express [examples](https://github.com/visionmedia/express/tree/master/examples), I came up with this folder structure. 
+A year back I started working on [node.js](http://nodejs.org) and like always I started with a CRUD app. The examples and sample applications that were available were mostly single page apps (written in  a single file `server.js` or `app.js`). After going through dozens of sample apps and express [examples](https://github.com/visionmedia/express/tree/master/examples), I came up with this folder structure. 
 
 ![folder structure](http://f.cl.ly/items/2W3c451O2c2I071U2p11/Image%202012.07.18%2011:58:11%20PM.png)
 

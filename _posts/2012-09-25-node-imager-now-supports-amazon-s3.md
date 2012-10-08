@@ -6,7 +6,7 @@ date: 2012-09-25 21:32:57 UTC
 title: node-imager now supports amazon S3
 ---
 
-In my [previous post](http://madhums.tumblr.com/post/31620857044/node-module-to-manipulate-images-and-upload-to-rackspace) I described how to use node-imager to upload images (with different presets) to rackspace cloudfiles. Today I have added support for amazon S3. 
+In my [previous post](http://madhums.me/2012/09/26/node-imager-now-supports-amazon-s3/) I described how to use node-imager to upload images (with different presets) to rackspace cloudfiles. Today I have added support for amazon S3. 
 
 To use S3 as your storage, add the below in the imager config
 

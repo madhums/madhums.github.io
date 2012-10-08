@@ -287,7 +287,13 @@ h1 a, h1 a:hover {
   overflow-y: scroll;
 }
 
-
+img[alt=madhums] {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50em;
+  box-shadow: 0 0px 10px black;
+  width: 80px;
+}
 
 /* Responsive
 -------------------------------------------------- */
@@ -325,6 +331,7 @@ header {
 }
 
 footer {
+  font-size: 14px;
   margin-top: 40px;
   text-align: center;
 }
