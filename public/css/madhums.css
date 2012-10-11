@@ -175,10 +175,6 @@ h1 a, h1 a:hover {
 
 /* List of posts
 ------------------------- */
-.posts,
-.fourohfour {
-  margin-bottom: 80px;
-}
 .posts h3 {
   margin: 0;
   font-size: 18px;
@@ -230,39 +226,10 @@ h1 a, h1 a:hover {
 .post ol {
   margin-left: 30px;
 }
-.tweet-button {
-  margin: 14px 0;
-}
-.post-date {
-  display: block;
-  margin: -10px 0 10px;
-  color: #ccc;
-}
 
 .page {
   padding-bottom: 84px;
 }
-
-
-
-/* Projects
--------------------------------------------------- */
-
-.project {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-.project h2 {
-  margin: 10px 0 0;
-}
-.project img {
-  border: 1px solid rgba(0,0,0,.1);
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
-}
-
-
 
 /* Misc
 -------------------------------------------------- */
@@ -273,19 +240,11 @@ h1 a, h1 a:hover {
 .left {
   float: left;
 }
-.muted {
-  color: #777;
-}
 .clear {
   clear: both;
 }
 .date {
   color: #999;
-}
-
-.gist-highlight {
-  max-height: 400px;
-  overflow-y: scroll;
 }
 
 img[alt=madhums] {
