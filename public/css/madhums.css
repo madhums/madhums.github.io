@@ -15,6 +15,7 @@ body {
   line-height: 28px;
   color: #454441;
   background-color: #fff;
+  margin: 0 40px;
 }
 
 p {
@@ -165,7 +166,7 @@ h1 a, h1 a:hover {
 
 .container {
   max-width: 600px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 
@@ -305,10 +306,17 @@ img[alt=madhums] {
   }
 }
 
+@media (max-width: 720px) {
+  .posts small.right {
+    float: none;
+  }
+}
+
 @media (max-width: 480px) {
   body, p, li {
     font-size: 14px;
     line-height: 22px;
+    margin: 0px;
   }
   pre {
     font-size: 12px;
@@ -365,7 +373,7 @@ footer {
 .highlight .nb{color:#0086B3;} /* Name.Builtin */
 .highlight .nc{color:#458;font-weight:bold;} /* Name.Class */
 .highlight .no{color:#008080;} /* Name.Constant */
-.highlight .ni{color:#800080;} 
+.highlight .ni{color:#800080;}
 .highlight .ne{color:#900;font-weight:bold;} /* Name.Exception */
 .highlight .nf{color:#900;font-weight:bold;} /* Name.Function */
 .highlight .nn{color:#005;font-weight:bold;} /* Name.Namespace */
@@ -397,6 +405,11 @@ footer {
 
 pre {
   overflow-x: auto;
-  white-space: pre; 
+  white-space: pre;
   word-wrap: normal;
+}
+
+.post h3 {
+  font-size: 20px;
+  font-weight: 600;
 }

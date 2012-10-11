@@ -29,6 +29,7 @@ Now you can simply run `update-node 0.8.10` !
 
 Oh and btw, it will install node to `~/local/node` directory.
 
-**Resources**:
+---
+### Resources:
 
 * [gist source](https://gist.github.com/3791075)

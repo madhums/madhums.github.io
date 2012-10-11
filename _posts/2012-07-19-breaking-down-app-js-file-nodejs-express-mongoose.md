@@ -6,7 +6,7 @@ date: 2012-07-19 01:10:00 UTC
 title: Breaking down app.js file - nodejs, express, mongoose
 ---
 
-Ok, this post is long overdue! 
+Ok, this post is long overdue!
 
 **tl;dr** : _This blog post explains how to structure and organize your node.js application. Its an anatomy of [nodejs-express-demo](http://nodejs-express-demo.herokuapp.com) app_
 
@@ -29,7 +29,7 @@ The [demo](http://nodejs-express-demo.herokuapp.com) app illustrates the followi
 15. and many more...
 
 
-A year back I started working on [node.js](http://nodejs.org) and like always I started with a CRUD app. The examples and sample applications that were available were mostly single page apps (written in  a single file `server.js` or `app.js`). After going through dozens of sample apps and express [examples](https://github.com/visionmedia/express/tree/master/examples), I came up with this folder structure. 
+A year back I started working on [node.js](http://nodejs.org) and like always I started with a CRUD app. The examples and sample applications that were available were mostly single page apps (written in  a single file `server.js` or `app.js`). After going through dozens of sample apps and express [examples](https://github.com/visionmedia/express/tree/master/examples), I came up with this folder structure.
 
 ![folder structure](http://f.cl.ly/items/2W3c451O2c2I071U2p11/Image%202012.07.18%2011:58:11%20PM.png)
 
@@ -152,7 +152,7 @@ Article
   })
 ```
 
-There are many other awesome stuff mongoose provides. Do take a look at mongoose [tests](https://github.com/LearnBoost/mongoose/tree/master/test) and the [documentation](http://mongoosejs.com/). 
+There are many other awesome stuff mongoose provides. Do take a look at mongoose [tests](https://github.com/LearnBoost/mongoose/tree/master/test) and the [documentation](http://mongoosejs.com/).
 
 ## 3. Controllers `./app/controllers/`
 The controller files contain the routes, routing middlewares, business logic, template rendering and dispatching.
@@ -283,11 +283,11 @@ app.use(express.logger(':method :url :status'))
 The error handler file handles the 404 and 500 errors by rendering a template. If you check the `views` folder, you can see there are 2 templates, one for 404 and the other for 500 errors.
 
 ## Views `./app/views/`
-The demo app uses [jade](http://jade-lang.com/) as template engine. The views are organized quite similar to rails. There is a `./app/views/layouts` folder which contains the default layout within which our templates will be rendered. There is an `includes` folder which includes the common parts of the page (like footer, header). There are pretty cool helpers like `contentFor()` etc - similar to the one in rails, do check out the `./settings.js` file. 
+The demo app uses [jade](http://jade-lang.com/) as template engine. The views are organized quite similar to rails. There is a `./app/views/layouts` folder which contains the default layout within which our templates will be rendered. There is an `includes` folder which includes the common parts of the page (like footer, header). There are pretty cool helpers like `contentFor()` etc - similar to the one in rails, do check out the `./settings.js` file.
 
-**Flash messages**    
+**Flash messages**
 I am using [express messages](http://github.com/visionmedia/express-messages) to generate flash messages. All you need to do is set req.flash in your controller
-`req.flash('notice', 'Created successfully')` and in your template, just use `!= messages()` 
+`req.flash('notice', 'Created successfully')` and in your template, just use `!= messages()`
 
 The current demo app uses [twitter bootstrap](http://twitter.github.com/bootstrap) for UI, if you checkout the earlier commits/tags, you can use [stylus](http://learnboost.github.com/stylus/).
 
@@ -296,7 +296,8 @@ Express 3.x is in beta, anytime now we can expect a stable release (and even mon
 
 **Update:** The demo has been updated to use all the latest modules. More authentications have been added using passport.js. Do take a look at the source!
 
-**Resources**:
+---
+### Resources:
 
 * [demo site](http://nodejs-express-demo.herokuapp.com)
 * [source code on github](http://github.com/madhums/nodejs-express-mongoose-demo)

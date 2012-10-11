@@ -3,10 +3,10 @@ layout: post
 categories: [cloudfiles, imager, images, nodejs, rackspace, s3, amazon]
 tumblr_id: 31620857044
 date: 2012-09-15 23:58:00 UTC
-title: Imager - node module to manipulate images, maintain different presets and upload them to rackspace cloudfiles and S3
+title: Imager - manipulate images and upload to rackspace & S3
 ---
 
-A Node.js module to resize, crop, manipulate images, maintain different presets of the same image and upload to rackspace cloudfiles. Its completely asynchronous. 
+A Node.js module to resize, crop, manipulate images, maintain different presets of the same image and upload to rackspace cloudfiles. Its completely asynchronous.
 
 ## Installation
 
@@ -31,7 +31,7 @@ module.exports = {
   storage: {
     Rackspace: {
       auth: {
-        username: "USERNAME", apiKey: "API_KEY", host: "lon.auth.api.rackspacecloud.com" 
+        username: "USERNAME", apiKey: "API_KEY", host: "lon.auth.api.rackspacecloud.com"
       },
       container: "CONTAINER_NAME"
     }
@@ -98,6 +98,7 @@ If you specify `debug: true` in the imager config, you can see the logs of uploa
 * Support amazon storage
 * Write more tests
 
-**Resources:**
+---
+### Resources:
 
 * [Github source](https://github.com/madhums/node-imager)

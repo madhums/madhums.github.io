@@ -6,7 +6,7 @@ date: 2012-08-20 05:54:00 UTC
 title: pagination using mongoose, express and jade
 ---
 
-Ok, here's how to create simple pagination using jade and mongoose. 
+Ok, here's how to create simple pagination using jade and mongoose.
 
 Say you have an event model with lots of events.
 
@@ -81,7 +81,8 @@ res.locals.createPagination = function (pages, page) {
 
 That's it!
 
-**Resources:**
+---
+### Resources:
 
 * [Demo](http://nodejs-express-demo.herokuapp.com/)
 * [Source](https://github.com/madhums/nodejs-express-mongoose-demo)
