@@ -4,6 +4,8 @@ categories: [express, javascript, mongoose, nodejs]
 tumblr_id: 27521420404
 date: 2012-07-19 01:10:00 UTC
 title: Breaking down app.js file - nodejs, express, mongoose
+keywords: mongoose, nodejs, express, mongodb
+summary: A demo app illustrating the usage of express framework, mongoose orm and mongodb in node.js. It also illustrates how to properly organize your application
 ---
 
 Ok, this post is long overdue!

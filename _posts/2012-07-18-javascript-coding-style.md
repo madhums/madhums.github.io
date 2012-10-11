@@ -4,6 +4,8 @@ categories: [javascript, code-style]
 tumblr_id: 27512517853
 date: 2012-07-18 22:51:59 UTC
 title: javascript coding style
+keywords: javascript, coding, style
+summary: javascript styling guide I follow for node.js. Other style guide references
 ---
 
 This is the javascript coding style I follow
@@ -22,7 +24,7 @@ var express = require('express')
   , arr = [1, 2, 3, 4]
 
 User
-  .findOne({ name: 'abc' }) 
+  .findOne({ name: 'abc' })
   .run(function (err, user) {
     if (err) return res.send(400)
     if (!user) {
@@ -41,4 +43,4 @@ Other styling guides out there:
 4. [idiomatic.js](https://github.com/rwldrn/idiomatic.js#readme)
 5. [Felix's node.js style guide](http://nodeguide.com/style.html)
 
-When I am developing on the server side (node.js) I don't use semicolons, otherwise on the client side I mostly do. 
+When I am developing on the server side (node.js) I don't use semicolons, otherwise on the client side I mostly do.

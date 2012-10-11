@@ -4,6 +4,8 @@ categories: [mongoose, express, jade, pagination, node.js]
 tumblr_id: 29813258042
 date: 2012-08-20 05:54:00 UTC
 title: pagination using mongoose, express and jade
+keywords: mongoose, express, jade, pagination
+summary: Pagination using mongoose, express and jade.
 ---
 
 Ok, here's how to create simple pagination using jade and mongoose.
