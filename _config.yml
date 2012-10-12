@@ -1,9 +1,7 @@
 pygments: true
+auto: true
 permalink: /:year/:month/:day/:title/
 markdown: redcarpet2
 redcarpet:
   extensions: ["fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "lax_html_blocks", "hard_wrap", "tables", "xhtml"]
-source: madhums.github.com
-destination: _site
-lsi: false
-safe: true
+safe: false
