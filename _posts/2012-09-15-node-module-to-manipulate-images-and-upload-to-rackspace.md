@@ -50,7 +50,7 @@ var Imager = require('imager');
   , imager = new Imager(imagerConfig, 'Rackspace')
 ```
 
-### Uploading file(s)
+## Uploading file(s)
 
 The callback recieves an err object, a files array (containing the names of the files which were uploaded) and the cdnUri.
 
@@ -78,7 +78,7 @@ imager.upload(['/path/to/file'], function (err, cdnUri, files) {
 
 Here files can be an array or a string. Make sure the path is absolute.
 
-### Removing file(s)
+## Removing file(s)
 
 **Remove from cloudfiles**
 
