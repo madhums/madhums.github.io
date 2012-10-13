@@ -6,12 +6,12 @@
 # Copyright (c) 2010 Dave Perrett, http://recursive-design.com/
 # Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
 #
-# A generator that creates a sitemap.xml page for jekyll sites, suitable for submission to 
-# google etc. 
+# A generator that creates a sitemap.xml page for jekyll sites, suitable for submission to
+# google etc.
 #
 # To use it, simply drop this script into the _plugins directory of your Jekyll site.
 #
-# When you compile your jekyll site, this plugin will loop through the list of pages in your 
+# When you compile your jekyll site, this plugin will loop through the list of pages in your
 # site, and generate an entry in sitemap.xml for each one.
 
 require 'pathname'
@@ -19,16 +19,16 @@ require 'pathname'
 module Jekyll
 
 
-  # Monkey-patch an accessor for a page's containing folder, since 
+  # Monkey-patch an accessor for a page's containing folder, since
   # we need it to generate the sitemap.
   class Page
     def subfolder
       @dir
     end
   end
-  
 
-  # Sub-class Jekyll::StaticFile to allow recovery from unimportant exception 
+
+  # Sub-class Jekyll::StaticFile to allow recovery from unimportant exception
   # when writing the sitemap file.
   class StaticSitemapFile < StaticFile
     def write(dest)
@@ -36,13 +36,13 @@ module Jekyll
       true
     end
   end
-  
-  
+
+
   # Generates a sitemap.xml file containing URLs of all pages and posts.
   class SitemapGenerator < Generator
     safe true
     priority :low
-    
+
     # Generates the sitemap.xml file.
     #
     #  +site+ is the global Site object.
@@ -53,7 +53,7 @@ module Jekyll
         p = Pathname.new(site_folder)
         p.mkdir
       end
-      
+
       # Write the contents of sitemap.xml.
       File.open(File.join(site_folder, 'sitemap.xml'), 'w') do |f|
         f.write(generate_header())
@@ -61,31 +61,31 @@ module Jekyll
         f.write(generate_footer())
         f.close
       end
-      
+
       # Add a static file entry for the zip file, otherwise Site::cleanup will remove it.
       site.static_files << Jekyll::StaticSitemapFile.new(site, site.dest, '/', 'sitemap.xml')
     end
 
     private
-    
+
     # Returns the XML header.
     def generate_header
       "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">"
     end
-    
+
     # Returns a string containing the the XML entries.
     #
     #  +site+ is the global Site object.
     def generate_content(site)
       result   = ''
-      
-      # First, try to find any stand-alone pages.      
+
+      # First, try to find any stand-alone pages.
       site.pages.each{ |page|
         path     = page.subfolder + '/' + page.name
-        
+
         # Skip files that don't exist yet (e.g. paginator pages)
         if FileTest.exist?(path)
-        
+
           mod_date = File.mtime(site.source + path)
 
           # Use the user-specified permalink if one is given.
@@ -111,14 +111,14 @@ module Jekyll
           else
             changefreq = ""
           end
-        
+
           unless path =~/error/
             result += entry(path, mod_date, changefreq, site)
           end
-        
+
         end
       }
-      
+
       # Next, find all the posts.
       posts = site.site_payload['site']['posts']
       for post in posts do
@@ -131,7 +131,7 @@ module Jekyll
         url = url[0..-11] if url=~/\/index.html$/
         result += entry(url, post.date, changefreq, site)
       end
-      
+
         result
     end
 
@@ -139,7 +139,7 @@ module Jekyll
     def generate_footer
       "\n</urlset>"
     end
-    
+
     # Creates an XML entry from the given path and date.
     #
     #  +path+ is the URL path to the page.
@@ -149,9 +149,10 @@ module Jekyll
     #    is output for this property.
     def entry(path, date, changefreq, site)
       # Remove the trailing slash from the baseurl if it is present, for consistency.
-      baseurl = site.config['baseurl']
+      # baseurl = site.config['baseurl']
+      baseurl = 'http://madhums.me'
       baseurl = baseurl[0..-2] if baseurl=~/\/$/
-      
+
       "
   <url>
       <loc>#{baseurl}#{path}</loc>
@@ -161,5 +162,5 @@ module Jekyll
     end
 
   end
-  
+
 end
