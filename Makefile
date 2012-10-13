@@ -1,4 +1,10 @@
 deploy:
 	git push origin jekyll && cd _site && git add . && git commit -am "release" && git push origin master
 
-.PHONY: deploy
+build:
+	jekyll --pygments --no-lsi
+
+server:
+	jekyll --server --auto
+
+.PHONY: deploy build
