@@ -11,7 +11,7 @@ Two days ago, a new extension was created for graphicsmagick - [gm-buffer](https
 
 > A plugin for gm module, which enables simple buffering of image binary for later content-length detection
 
-It gives the buffer of the processed file using which you can get the length of the file to be uploaded. The new version (0.1.5) of [node-imager](https://github.com/madhums/node-imager) also skips all the file IO and simply uses streams for uploading.
+It gives the buffer of the processed file, using which you can get the length of the file to be uploaded. The new version (0.1.5) of [node-imager](https://github.com/madhums/node-imager) also skips all the file IO and simply uses streams for uploading.
 
 If you are using node-imager, you should upgrade to 0.1.5 and take advantage of the awesomeness of node streaming!
 
