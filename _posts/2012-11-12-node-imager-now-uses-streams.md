@@ -17,6 +17,8 @@ If you are using node-imager, you should upgrade to 0.1.5 and take advantage of 
 
 **Note**: Though it uses streaming, the whole buffered object is kept in memory, which is not the optimal way of doing things with streaming. But because of S3's [limitations](http://stackoverflow.com/questions/8653146/can-i-stream-a-file-upload-to-s3-without-a-content-length-header) of sending `content-length`, you will have to store the object in the memory.
 
+**Update**: For some reason this was not working, so I reverted it back to the previous version. It still uses `fs`
+
 ---
 ### Resources:
 

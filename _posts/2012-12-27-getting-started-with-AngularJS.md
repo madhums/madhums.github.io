@@ -31,8 +31,8 @@ I sat for two days and I went through series of videos and blog posts, I am list
 9. [3 reasons to choose AngularJS for your next project](http://net.tutsplus.com/tutorials/javascript-ajax/3-reasons-to-choose-angularjs-for-your-next-project/)
 10. [Youtube: AngularJS Best practices](http://www.youtube.com/watch?v=ZhfUv0spHCY)
 
-I started with the [tutorial](http://docs.angularjs.org/tutorial) and parallelly I watched/read the above links.
+I started with the [tutorial](http://docs.angularjs.org/tutorial) and parallelly I watched/read the above links. Also the documentation is good enough to help you through.
 
-Angular also comes with a [boilerplate (angular-seed)](https://github.com/angular/angular-seed) just for YOU!
+Angular also comes with a [boilerplate (angular-seed)](https://github.com/angular/angular-seed), just for YOU!
 
 If you are not happy with how backbone is working out for you, you should seriously give it a try.
