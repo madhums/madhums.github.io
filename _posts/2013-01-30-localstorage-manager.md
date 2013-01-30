@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [javascript, localstorage]
-title: localStorage manager
+title: localStorage manager (lm.js)
 keywords: javascript, localStorage
 summary: localStorage manager (lm.js) - a simple way to store, manipulate and perform queries on collections and documents in your localStorage.
 ---
