@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
     <link href="http://gmpg.org/xfn/11" rel="profile">
 
+    <!-- Meta tags -->
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.summary }}" />
     <meta name="keywords" content="{{ page.keywords }}" />
+
+    <!-- Open graph -->
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:type" content="blog"/>
+    <meta property="og:site_name" content="madhums.me"/>
+    <meta property="og:description" content="{{ page.summary }}" />
+    <meta property="og:url" content="http://madhums.me{{ page.url }}" />
+    <meta property="og:image" content="http://madhums.me/public/madhums.png" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="/public/css/madhums.css" type="text/css" />
