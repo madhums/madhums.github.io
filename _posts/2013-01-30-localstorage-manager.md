@@ -3,7 +3,7 @@ layout: post
 categories: [javascript, localstorage]
 title: localStorage manager
 keywords: javascript, localStorage
-summary: localStorage manager - a simple way to store, manipulate and perform queries on collections and documents.
+summary: localStorage manager (lm.js) - a simple way to store, manipulate and perform queries on collections and documents in your localStorage.
 ---
 
 When you are developing applications for mobile, say using phonegap, jQtouch or backbone, you would want to query collections, manipulate documents, updating, removing or adding a new one. This library allows you to play around with collections and documents in an easy way.
@@ -110,7 +110,11 @@ archived.find({ tag: 'kitchen' }, function (docs) {
 
 To use it, just source `lm.js` in your app.
 
-**Note:** Currently the find method accepts only one criteria.
+## Limitations
+
+Localstorage has a limitation of 5MB, so if you want to use offline data storage with files etc, [indexedDB](http://hacks.mozilla.org/2012/02/storing-images-and-files-in-indexeddb/) would be a good option.
+
+**Note:** Currently the `find` method accepts only one criteria.
 
 ---
 ### Resources:
