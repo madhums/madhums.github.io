@@ -3,12 +3,12 @@ layout: post
 categories: [javascript, localstorage]
 title: localStorage manager (lm.js)
 keywords: javascript, localStorage
-summary: localStorage manager (lm.js) - a simple way to store, manipulate and perform queries on collections and documents in your localStorage.
+summary: localStorage manager (lm.js) - A simple wrapper around `localStorage` with which you can perform CRUD operations on collections and documents, even query on them.
 ---
 
-When you are developing applications for mobile, say using phonegap, jQtouch or backbone, you would want to query collections, manipulate documents, updating, removing or adding a new one. This library allows you to play around with collections and documents in an easy way.
+A simple wrapper around `localStorage` with which you can perform CRUD operations on collections and documents, even query on them.
 
-You should be able to do something like this.
+When you are developing applications on the client side, you would want to perform CRUD operations on collections and documents. This library allows you to play around with collections and documents in an easy way.
 
 ## Initialize your app
 
@@ -120,4 +120,4 @@ Localstorage has a limitation of 5MB, so if you want to use offline data storage
 ---
 ### Resources:
 
-* [lm.js source](https://github.com/madhums/lm.js)
+* [lm.js on github](https://github.com/madhums/lm.js)
