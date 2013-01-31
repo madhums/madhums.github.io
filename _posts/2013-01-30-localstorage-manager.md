@@ -110,6 +110,10 @@ archived.find({ tag: 'kitchen' }, function (docs) {
 
 To use it, just source `lm.js` in your app.
 
+## Tests
+
+You can see the test results [here](http://madhums.me/public/lm.js/)
+
 ## Limitations
 
 Localstorage has a limitation of 5MB, so if you want to use offline data storage with files etc, [indexedDB](http://hacks.mozilla.org/2012/02/storing-images-and-files-in-indexeddb/) would be a good option.
