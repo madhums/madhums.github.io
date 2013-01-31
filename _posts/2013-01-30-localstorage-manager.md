@@ -3,12 +3,10 @@ layout: post
 categories: [javascript, localstorage]
 title: localStorage manager (lm.js)
 keywords: javascript, localStorage
-summary: localStorage manager (lm.js) - A simple wrapper around `localStorage` with which you can perform CRUD operations on collections and documents, store them and query on them.
+summary: localStorage manager (lm.js) - A simple wrapper around `localStorage` with which you can store, query and perform CRUD operations on collections and documents.
 ---
 
-A simple wrapper around `localStorage` with which you can perform CRUD operations on collections and documents, store them and query on them.
-
-When you are developing applications on the client side, you would want to perform CRUD operations on collections and documents, store them and query on them. This library allows you to play around with collections and documents in an easy way.
+localStorage manager (lm.js) is a simple wrapper around `localStorage` with which you can store, query and perform CRUD operations on collections and documents in an easy way.
 
 ## Initialize your app
 
