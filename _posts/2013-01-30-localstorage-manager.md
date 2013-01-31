@@ -71,7 +71,6 @@ var archived = todoapp.get('archived');
 ## Find within a collection
 
 ```js
-// currently accepts only one criteria
 archived.find({ tag: 'kitchen' }, function (docs) {
   console.log(docs);
   // output:
@@ -102,7 +101,7 @@ archived.find({ tag: 'kitchen' }, function (docs) {
 
     doc.remove();
 
-    console.log(doc);
+    console.log(doc.name);
     // undefined
   });
 });
@@ -117,8 +116,6 @@ You can see the test results [here](http://madhums.me/public/lm.js/)
 ## Limitations
 
 Localstorage has a limitation of 5MB, so if you want to use offline data storage with files etc, [indexedDB](http://hacks.mozilla.org/2012/02/storing-images-and-files-in-indexeddb/) would be a good option.
-
-**Note:** Currently the `find` method accepts only one criteria.
 
 ---
 ### Resources:
