@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html><head><link rel="apple-touch-icon-precomposed" href="img/logo-icon.png"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/jqtouch4.png"><link rel="apple-touch-startup-image" href="jqt_startup.png"><meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta charset="UTF-8">
+    <title>getSurveyApp β</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/apple.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+
+    <!-- Phonegap -->
+    <script type="text/javascript" charset="utf-8" src="lib/cordova-2.3.0.js"></script><style type="text/css"></style>
+
+    <!-- jQtouch -->
+    <!--
+    <script type="text/javascript" src="lib/jquery-1.7.js"></script>
+    <script type="text/javascript" src="lib/jqtouch.js"></script>
+    <script type="text/javascript" src="lib/jqtouch-jquery.js"></script>
+     -->
+
+    <!-- Zepto -->
+
+    <script src="lib/zepto.js" type="text/javascript"></script>
+    <script src="lib/jqtouch.js" type="text/javascript"></script>
+
+    <script type="text/javascript" charset="utf-8">
+      var ua = navigator.userAgent.toLowerCase();
+      var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+      var jQT = new $.jQTouch({
+          icon: 'img/logo-icon.png',
+          icon4: 'img/jqtouch4.png',
+          addGlossToIcon: false,
+          startupScreen: 'jqt_startup.png',
+          statusBar: 'black-translucent',
+          themeSelectionSelector: '#jqt #themes ul',
+          preloadImages: [],
+          debug: false,
+          useFastTouch: !isAndroid
+      });
+    </script>
+  </head>
+  <body>
+    <div id="jqt" class="supports3d autoscroll portrait">
+
+      <!-- Login page -->
+      <div id="login" class="" style="top: 0px;">
+        <div class="toolbar">
+          <h1>Login</h1>
+        </div>
+        <form class="form-login form" method="post">
+          <ul class="rounded">
+            <li>
+              <input type="text" placeholder="Username" name="username" autocapitalize="off" autocorrect="off" autocomplete="off">
+            </li>
+            <li>
+              <input type="password" placeholder="Password" name="password">
+            </li>
+          </ul>
+          <a class="whiteButton login" style="">Login</a>
+        </form>
+      </div>
+
+
+      <!-- Dashboard -->
+      <div id="dashboard" class="" style="top: 0px;">
+        <div class="toolbar">
+          <h1>Dashboard</h1>
+          <a class="button slideup" href="#about" style="">about</a>
+        </div>
+        <div class="scroll">
+          <h2>Hello <span class="username">clay</span>, you have finished <span class="finished-counter">0</span> surveys</h2>
+          <ul class="rounded">
+            <li class="arrow">
+              <a href="#pick-survey" class="pick-survey" style="">Pick a survey</a>
+            </li>
+            <li class="arrow">
+              <a href="#drafts" style="">Drafts <small class="counter drafts-counter">0</small></a>
+            </li>
+            <li class="arrow">
+              <a href="#sync" style="">Sync <small class="counter pending-counter">0</small></a>
+            </li>
+          </ul>
+
+          <ul class="rounded">
+            <li class="arrow">
+              <a href="#preferences" style="">Preferences</a>
+            </li>
+          </ul>
+
+          <hr>
+          <a href="#" class="clear-data redButton" style="">Logout</a>
+        </div>
+      </div>
+
+
+      <!-- pick survey -->
+      <div id="pick-survey" style="top: 0px;" class="">
+        <div class="toolbar">
+          <h1>Pick a Survey</h1>
+          <a href="#" class="back" style="">Back</a>
+        </div>
+        <div class="scroll">
+          <script type="text/x-handlebars-template" id="survey-list">
+            {{#if surveys}}
+            <ul class="rounded">
+              {{#each surveys}}
+              <li class="arrow">
+                <a href="#" data-id="{{ _id }}" class="survey">
+                  {{name}}
+                  <small class="counter">{{ questions.length }}</small>
+                </a>
+              </li>
+              {{/each}}
+            </ul>
+            {{/if}}
+
+            {{#unless surveys}}
+            <br>
+            <center>
+              <h2>There are no surveys!</h2>
+            </center>
+            {{/unless}}
+          </script>
+          <div class="survey-list">
+
+            <ul class="rounded">
+
+              <li class="arrow">
+                <a href="#" data-id="51025f51379e830200000005" class="survey">
+                  CHIMP
+                  <small class="counter">3</small>
+                </a>
+              </li>
+
+              <li class="arrow">
+                <a href="#" data-id="50fe33a46ac0190200000005" class="survey">
+                  AU post members
+                  <small class="counter">5</small>
+                </a>
+              </li>
+
+              <li class="arrow">
+                <a href="#" data-id="50fdbc6fa6e900020000001b" class="survey">
+                  STOP - Take Five
+                  <small class="counter">13</small>
+                </a>
+              </li>
+
+              <li class="arrow">
+                <a href="#" data-id="50fe564cf6119c0200000008" class="survey">
+                  Hello World
+                  <small class="counter">1</small>
+                </a>
+              </li>
+
+              <li class="arrow">
+                <a href="#" data-id="510bb9e63efa2e0200000008" class="survey">
+                  Brandweer Duikregistratie
+                  <small class="counter">13</small>
+                </a>
+              </li>
+
+              <li class="arrow">
+                <a href="#" data-id="5107a17b4c39580200000007" class="survey">
+                  Test Antoinette
+                  <small class="counter">2</small>
+                </a>
+              </li>
+
+            </ul>
+
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Perform Survey  -->
+      <div id="survey-form" style="top: 0px;" class="current">
+        <div class="toolbar">
+          <h1>Survey <span class="survey-name">STOP - Take Five</span></h1>
+          <a href="#" class="back" style="">Back</a>
+        </div>
+        <div class="scroll">
+          <script type="text/x-handlebars-template" id="survey-details">
+            {{#each questions}}
+              {{{generate this}}}
+            {{/each}}
+          </script>
+          <form name="survey" class="survey-form">
+            <div class="survey-details">
+
+               <h2>Do I understand the task?</h2>
+ <ul class="rounded">
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000028" value="yes" title="Yes">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000028" value="no" title="No">
+   </li>
+ </ul>
+
+               <h2>Am I wearing the correct PPE?</h2>
+ <ul class="rounded">
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000027" value="yes" title="Yes">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000027" value="no" title="No">
+   </li>
+ </ul>
+
+               <h2>Do I have the skill to do this task?</h2>
+ <ul class="rounded">
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000026" value="yes" title="Yes">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000026" value="no" title="No">
+   </li>
+ </ul>
+
+               <h2>Pre-start on plant complet? (if applicable)</h2>
+ <ul class="rounded">
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000025" value="Yes" title="Yes">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000025" value="No" title="No">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000025" value="n/a" title="n/a">
+   </li>
+ </ul>
+
+               <h2>Equipment locked out/isolated (if applicable)</h2>
+ <ul class="rounded">
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000024" value="Yes" title="Yes">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000024" value="No" title="No">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000024" value="n/a" title="n/a">
+   </li>
+ </ul>
+
+               <h2>Date:</h2>
+ <ul class="rounded">
+   <li>
+     <input type="date" name="50fdbc6fa6e9000200000023" placeholder="Please answer this">
+   </li>
+ </ul>
+
+               <h2>Location / Project:</h2>
+ <ul class="rounded">
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000022" value="Location 1" title="Location 1">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000022" value="Location 2" title="Location 2">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000022" value="Project 1" title="Project 1">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000022" value="Project 2" title="Project 2">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e9000200000022" value="Project 3" title="Project 3">
+   </li>
+ </ul>
+
+               <h2>Brieft Description / Observation</h2>
+ <ul class="rounded">
+   <li>
+     <input type="text" name="50fdbc6fa6e9000200000021" placeholder="Please answer this">
+   </li>
+ </ul>
+
+               <h2>Suggestions for Improvements:</h2>
+ <ul class="rounded">
+   <li>
+     <input type="text" name="50fdbc6fa6e9000200000020" placeholder="Please answer this">
+   </li>
+ </ul>
+
+               <h2>Has there been an immediate fix?</h2>
+ <ul class="rounded">
+   <li>
+     <input type="radio" name="50fdbc6fa6e900020000001f" value="yes" title="Yes">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e900020000001f" value="no" title="No">
+   </li>
+ </ul>
+
+               <h2>Further Action required?</h2>
+ <ul class="rounded">
+   <li>
+     <input type="radio" name="50fdbc6fa6e900020000001e" value="yes" title="Yes">
+   </li>
+   <li>
+     <input type="radio" name="50fdbc6fa6e900020000001e" value="no" title="No">
+   </li>
+ </ul>
+
+               <h2>Due date:</h2>
+ <ul class="rounded">
+   <li>
+     <input type="date" name="50fdbc6fa6e900020000001d" placeholder="Please answer this">
+   </li>
+ </ul>
+
+               <h2>Responsible Person:</h2>
+ <ul class="rounded">
+   <li>
+     <input type="text" name="50fdbc6fa6e900020000001c" placeholder="Please answer this">
+   </li>
+ </ul>
+
+          </div>
+            <a href="#" class="survey-finish blueButton" style="">Finish</a>
+          </form>
+        </div>
+      </div>
+
+
+      <!-- Drafts -->
+      <div id="drafts">
+        <div class="toolbar">
+          <h1>Drafts</h1>
+          <a href="#" class="back" style="">Back</a>
+        </div>
+        <div class="scroll">
+          <script type="text/x-handlebars-template" id="drafts-list">
+            {{#unless drafts}}
+              <br>
+              <center>
+                <h2>There are no drafts!</h2>
+              </center>
+            {{/unless}}
+          </script>
+          <div class="drafts-list"></div>
+        </div>
+      </div>
+
+
+      <!-- Sync data -->
+      <div id="sync">
+        <div class="toolbar">
+          <h1>Sync</h1>
+          <a href="#" class="back" style="">Back</a>
+        </div>
+        <div class="scroll">
+          <div class="alert"></div>
+          <script type="text/x-handlebars-template" id="sync-list">
+            {{#if pending}}
+              <h2>The following surveys will be synced</h2>
+              <ul class="rounded">
+                {{#each pending}}
+                <li>
+                  {{ survey.name }}
+                  <!-- <a href="#" class="button danger">delete</a> -->
+                </li>
+                {{/each}}
+              </ul>
+            {{/if}}
+
+            {{#unless pending}}
+              <br>
+              <center>
+                <h2>Hurraay! You have synced all the surveys!</h2>
+              </center>
+              <br>
+            {{/unless}}
+          </script>
+          <div class="sync-list"></div>
+          <a href="#" class="blueButton sync-btn" style="">Sync</a>
+        </div>
+      </div>
+
+
+      <!-- About -->
+      <div id="about" class="selectable">
+        <div class="toolbar">
+          <h1>About</h1>
+          <a href="#" class="back" style="">Back</a>
+        </div>
+        <div class="about">
+          <br>
+          <p><img src="img/logo-icon.png" width="60px"></p>
+          <p>
+            <strong>getSurveyApp</strong>
+            <br>
+            Version <span class="version">0.2.0</span>
+            <!-- <a href="http://madhums.me" target="_blank">By madhums</a> -->
+          </p>
+          <p>Say goodbye to paper!</p>
+          <p>
+            <a href="http://twitter.com/getsurveyapp" target="_blank" style="">@getsurveyapp</a> on twitter
+          </p>
+        </div>
+      </div>
+
+
+      <!-- Preferences -->
+      <div id="preferences">
+        <div class="toolbar">
+          <h1>Preferences</h1>
+          <a href="#" class="back" style="">Back</a>
+        </div>
+        <div class="scroll">
+          <h2>Experimental</h2>
+          <ul class="rounded">
+            <li>
+              <input type="checkbox" name="autosync" title="Auto sync">
+            </li>
+            <li>
+              <input type="checkbox" name="autodraft" title="Auto draft">
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+
+
+</body></html>
