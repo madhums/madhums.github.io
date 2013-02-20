@@ -252,9 +252,9 @@ h1 a, h1 a:hover {
 
 img[alt=madhums] {
   float: left;
-  margin-right: 20px;
+  margin-right: 0px;
   border-radius: 50em;
-  box-shadow: 0 0px 10px black;
+  box-shadow: 0 0px 5px black;
   width: 80px;
 }
 
