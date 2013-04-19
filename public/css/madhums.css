@@ -375,3 +375,8 @@ pre {
   font-size: 20px;
   font-weight: 600;
 }
+
+.flattr {
+  margin-top: 5px;
+  display: block;
+}
