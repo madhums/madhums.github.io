@@ -6,6 +6,7 @@ date: 2012-07-21 16:44:00 UTC
 title: Passportjs, everyauth and mongoose-auth
 keywords: passport.js, mongoose-auth, everyauth
 summary: Passport.js is much better than mongoose auth in handling authentication as it is completely database agnostic
+github: https://github.com/madhums/nodejs-express-mongoose-demo
 ---
 
 Today I am trying out [passport.js](https://github.com/jaredhanson/passport) and I am really thinking of  discontinuing mongoose-auth/everyauth in all of my projects! Everyauth and mongoose-auth are awesome modules but they are not database agnostic. In that sense passportjs is very flexible and  database agnostic. Its like omniauth for rails, which I am sure the [author](http://twitter.com/jaredhanson) would have thought of while developing.

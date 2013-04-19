@@ -6,6 +6,7 @@ date: 2012-08-20 05:54:00 UTC
 title: pagination using mongoose, express and jade
 keywords: mongoose, express, jade, pagination
 summary: Pagination using mongoose, express and jade.
+github: https://github.com/madhums/nodejs-express-mongoose-demo
 ---
 
 Ok, here's how to create simple pagination using jade and mongoose.

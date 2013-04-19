@@ -5,6 +5,7 @@ date: 2012-11-12 22:51:59 UTC
 title: node-imager now uses streams
 keywords: javascript, nodejs, streams, imager
 summary: node-imager now uses streams. Removed all the file IO for all the images that were processed by graphicsmagick
+github: https://github.com/madhums/node-imager
 ---
 
 Two days ago, a new extension was created for graphicsmagick - [gm-buffer](https://github.com/skimcom/node-gm-buffer).

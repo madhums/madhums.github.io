@@ -6,6 +6,7 @@ date: 2012-09-26 23:50:00 UTC
 title: Install/update node.js in just one command!
 keywords: install, nodejs, update
 summary: Install or update node.js in one command
+github: https://raw.github.com/gist/3791075
 ---
 
 A simple script to install/update the much frequently updated [node.js](http://nodejs.org) platform.
