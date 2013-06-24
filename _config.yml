@@ -1,6 +1,4 @@
 pygments: true
 permalink: /:year/:month/:day/:title/
 markdown: redcarpet
-safe: false
-lsi: false
 exclude: [README.md]
