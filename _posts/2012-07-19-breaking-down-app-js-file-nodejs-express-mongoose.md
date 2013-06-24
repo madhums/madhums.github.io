@@ -9,6 +9,8 @@ summary: A demo app illustrating the usage of express framework, mongoose orm an
 github: https://github.com/madhums/nodejs-express-mongoose-demo
 ---
 
+A working draft of the app architecture is in progress, visit the boilerplate [wiki](https://github.com/madhums/node-express-mongoose/wiki)
+
 Ok, this post is long overdue!
 
 **tl;dr** : _This blog post explains how to structure and organize your node.js application. Its an anatomy of [nodejs-express-demo](http://nodejs-express-demo.herokuapp.com) app_
@@ -298,6 +300,8 @@ The current demo app uses [twitter bootstrap](http://twitter.github.com/bootstra
 Express 3.x is in beta, anytime now we can expect a stable release (and even mongoose, which is in 3.x). I am starting a migration branch and also planning to blog about the changes/issues I face during the migration process.
 
 **Update:** The demo has been updated to use all the latest modules. More authentications have been added using passport.js. Do take a look at the source!
+
+_If you want to build an app from scratch using this approach, use the [boilerplate app](https://github.com/madhums/node-express-mongoose/)_
 
 ---
 ### Resources:
