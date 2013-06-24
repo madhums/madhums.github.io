@@ -15,13 +15,13 @@ I want to address a few things in this post
 1. Why go with purely client side approach?
 2. Trade-offs of client side approach
 
-### Why go with purely client side approach?
+## Why go with purely client side approach?
 1. Responsiveness
 2. RESTful interface
 
 One of the main reasons I feel like going with this approach is the **responsiveness**. If you use tools like [grunt.js](https://github.com/gruntjs/grunt), you can just have 1 css file, 1 js file and 1 image sprite (yes there is an awesome module called [node-spritesheets](https://github.com/richardbutler/node-spritesheet)) and 1 html file. The whole app resides on the  browser and its super fast and responsive! With this you'd also get to build a neat **RESTful** interface. These are the only two main advantages I see.
 
-### Trade-offs of client side approach
+## Trade-offs of client side approach
 1. No hard and fast conventions
 2. Development time is rather slow
 3. Hard to maintain

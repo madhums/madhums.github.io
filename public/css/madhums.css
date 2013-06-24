@@ -1,8 +1,4 @@
 
-
-/* Body resets
--------------------------------------------------- */
-
 html, body {
   margin: 0;
   padding: 0;
@@ -10,48 +6,59 @@ html, body {
 
 body {
   padding: 40px 0;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 28px;
-  color: #454441;
+  font-family: "Helvetica Neue", arial, freesans, clean, sans-serif;
+  font-style: normal;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: #333333;
   background-color: #fff;
   margin: 0 40px;
 }
 
 p {
-  margin: 0 0 14px;
+  margin: 15px 0;
+  line-height: 1.7;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: normal;
-  margin: 0;
-  line-height: 28px;
-  color: #111;
+  line-height: 1.7;
+  margin: 1em 0 15px;
   text-rendering: optimizeLegibility;
 }
+
 h1 {
-  margin: 0 0 36px;
-  font-size: 36px;
-  line-height: 40px;
+  font-size: 2.5em;
   text-align: center;
 }
+
 h2 {
-  line-height: 40px;
-  margin: 20px 0 22px;
-  font-size: 28px;
-  color: #555;
+  font-size: 2em;
 }
+
 h3 {
-  margin: 24px 0 5px;
-  font-size: 16px;
+  font-size: 1.5em;
 }
+
 h4 {
-  margin: 16px 0 5px;
-  font-size: 10px;
+  font-size: 1.2em;
 }
+
+h5 {
+  font-size: 1em;
+}
+
 h1 small {
   font-size: 20px;
   color: #999;
 }
+
 ul, ol {
   padding: 0;
   margin: 0 0 14px;
@@ -113,6 +120,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
 }
+
 pre code {
   padding: 0;
   color: inherit;
@@ -125,14 +133,17 @@ blockquote {
   margin: 0 30px 14px 0;
   border-left: 1px solid #e5e5e5;
 }
+
 blockquote p {
   margin-bottom: 0;
   color: #999;
   text-indent: -0.4em;
 }
+
 blockquote p:before {
   content: '\201C';
 }
+
 blockquote p:after {
   content: '\201D';
 }
@@ -175,9 +186,11 @@ h1 a, h1 a:hover {
 
 /* List of posts
 ------------------------- */
+
 .posts {
   margin-bottom: 80px;
 }
+
 .posts h3 {
   margin: 0;
   font-size: 18px;
@@ -185,6 +198,7 @@ h1 a, h1 a:hover {
   border-radius: 4px;
   margin: 10px 0;
 }
+
 .posts h3 a {
   display: block;
   padding: 5px 10px;
@@ -192,24 +206,29 @@ h1 a, h1 a:hover {
      -moz-border-radius: 4px;
           border-radius: 4px;
 }
+
 .posts h3 a:hover {
   text-decoration: none;
   background-color: #f5f5f5;
 }
+
 .posts h3 a small {
   font-size: 14px;
   color: #999;
 }
+
 .posts li {
   list-style-type: none;
 }
 
 /* Single post
 ------------------------- */
+
 .post {
   position: relative;
   margin-bottom: 50px;
 }
+
 .post:after {
   display: block;
   content: '';
@@ -219,15 +238,20 @@ h1 a, h1 a:hover {
   background-color: none;
   margin-top: 54px;
 }
-.post ul li {
-  list-style-type: circle;
+
+ul li,
+ol li {
+  line-height: 1.7;
 }
+
 .post img {
   max-width: 100%;
 }
+
 .post ul,
 .post ol {
-  margin-left: 30px;
+  padding-left: 30px;
+  margin: 15px 0;
 }
 
 .page {
@@ -240,12 +264,15 @@ h1 a, h1 a:hover {
 .right {
   float: right;
 }
+
 .left {
   float: left;
 }
+
 .clear {
   clear: both;
 }
+
 .date {
   color: #999;
 }
@@ -257,6 +284,22 @@ img[alt=madhums] {
   box-shadow: 0 0px 5px black;
   width: 80px;
 }
+
+header {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 40px;
+  text-align: center;
+}
+
 
 /* Responsive
 -------------------------------------------------- */
@@ -295,16 +338,9 @@ img[alt=madhums] {
   }
 }
 
-header {
-  margin-bottom: 40px;
-  border-bottom: 1px solid #eee;
-}
-
-footer {
-  font-size: 14px;
-  margin-top: 40px;
-  text-align: center;
-}
+/* -----------------------------------------------
+  Code styles
+  ------------------------------------------------ */
 
 .c { color: #888888; font-style: italic } /* Comment */
 .err { color: #a61717; background-color: #e3d2d2 } /* Error */
@@ -369,14 +405,4 @@ pre {
   overflow-x: auto;
   white-space: pre;
   word-wrap: normal;
-}
-
-.post h3 {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.flattr {
-  margin-top: 5px;
-  display: block;
 }
