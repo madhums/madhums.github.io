@@ -8,4 +8,4 @@ permalink: /about/
 
 I love travelling and meeting new people. I sleep at unusual times. You will find me in front of my mac hacking away at code, listening to progressive / house / electronica! I love science fiction, especially fringe and lost. My favourite movie is _Into the Wild_.
 
-I also [tweet](http://twitter.com/madhums), [code](http://github.com/madhums) and [reply](mailto:madhums8@gmail.com). Drop a hi !
+I also [tweet](http://twitter.com/madhums), [code](http://github.com/madhums) and [reply](mailto:me@madhums.me). Drop a hi !
