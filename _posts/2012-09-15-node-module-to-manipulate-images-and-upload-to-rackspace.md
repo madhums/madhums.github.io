@@ -101,7 +101,6 @@ If you specify `debug: true` in the imager config, you can see the logs of uploa
 * Support amazon storage
 * Write more tests
 
----
 ### Resources:
 
 * [Github source](https://github.com/madhums/node-imager)

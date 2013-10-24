@@ -1,4 +1,10 @@
-pygments: true
-permalink: /:year/:month/:day/:title/
-markdown: redcarpet
-exclude: [README.md]
+title:        Madhusudhan Srinivasa
+tagline:      "Open Source enthusiast, Programmer, Thinker, Traveller, Minimalist"
+url:          http://madhums.me
+author:
+  name:       "Madhusudhan Srinivasa"
+  email:      "me@madhums.me"
+markdown:     redcarpet
+permalink:    /:year/:month/:day/:title/
+pygments:     true
+paginate:     5

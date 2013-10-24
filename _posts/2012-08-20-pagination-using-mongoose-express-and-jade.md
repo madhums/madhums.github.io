@@ -84,7 +84,6 @@ res.locals.createPagination = function (pages, page) {
 
 That's it!
 
----
 ### Resources:
 
 * [Demo](http://nodejs-express-demo.herokuapp.com/)

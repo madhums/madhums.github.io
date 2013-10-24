@@ -1,58 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1">
+    <link href="/public/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="http://gmpg.org/xfn/11" rel="profile">
 
+    <title>
+      {% if page.title %}{{ page.title }} &middot; {% endif %}
+      {{ site.author.name }} &middot; {{ site.tagline }}
+    </title>
+
     <!-- Meta tags -->
-    <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.summary }}" />
     <meta name="keywords" content="{{ page.keywords }}" />
 
-    <!-- Open graph -->
-    <meta property="og:title" content="{{ page.title }}"/>
-    <meta property="og:type" content="blog"/>
-    <meta property="og:site_name" content="madhums.me"/>
-    <meta property="og:description" content="{{ page.summary }}" />
-    <meta property="og:url" content="http://madhums.me{{ page.url }}" />
-    <meta property="og:image" content="http://madhums.me/public/madhums.png" />
-
     <!-- CSS -->
-    <link rel="stylesheet" href="/public/css/madhums.css" type="text/css" />
+    <link rel="stylesheet" href="/public/css/hyde.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
 
-    <!-- favicon -->
-    <link rel="shortcut icon" href="/public/favico.png" />
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/public/favicon.png">
 
-    <!-- opensans font -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css' />
-
-    <!-- Google Webmaster Tools & Analytics -->
-    <meta name="google-site-verification" content="qePRa8hEa1sdQfRBupKoFBMYq2m0Y2uLkmzU_1dR9Rc" />
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
   </head>
   <body>
 
-    <div class="container">
-      <header>
-        <h1>
-          {% if page.url == '/about/' %}
-          <img src="/public/madhums.png" alt="madhums">
-          {% endif %}
-          <a title="Madhusudhan Srinivasa" href="/">Madhusudhan Srinivasa</a>
-          <a href="https://github.com/madhums">
-            <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
-          </a>
-        </h1>
-      </header>
-      <div role="main">
-        {{ content }}
-      </div>
-      <footer>
-        <a href="/about/" title="about">about</a>
+    <header class="masthead">
+      <div class="masthead-inner">
+        <!-- <h1>Hyde</h1> -->
+        <a href="/" class="logo" title="{{ site.author.name }}">
+          <span>{{ site.author.name }}</span>
+        </a>
+        <p class="lead">
+          Open Source enthusiast, Programmer, Thinker, Traveller, Minimalist.
+        </p>
 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &copy; 2012 madhums.me
-      </footer>
+        <div class="colophon">
+          <ul class="colophon-links">
+            <li class="credit"><a href="/about">about</a></li>
+            <li class="credit">Hyde Theme by @mdo</li>
+            <li class="credit">Powered by GitHub and Jekyll</li>
+            <li class="credit">
+              <a href="http://github.com/madhums">Fork this on github</a>
+            </li>
+          </ul>
+          <p>&copy; 2013. {{ site.author.name }} All rights reserved.</p>
+        </div>
+
+      </div>
+    </header>
+
+    <div class="content container">
+      {{ content }}
     </div>
 
     <script type="text/javascript">
@@ -68,5 +70,6 @@
       })();
 
     </script>
+
   </body>
 </html>

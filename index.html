@@ -1,20 +1,42 @@
 ---
 layout: default
-title: Madhusudhan Srinivasa
-author: Madhusudhan Srinivasa
 keywords: nodejs, mongodb, backbone.js, javascript, developer, blog, madhums, madhusudhan srinivasa
 summary: Writings about javascript, node.js, mongodb, backbone.js and everything else in the world.
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    <h3>
-      <a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}
-        <br>
-        <small>
-          {{ post.date | date_to_string }}
-        </small>
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1>
+      <a href="{{ post.url }}">
+        {{ post.title }}
       </a>
-    </h3>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    <div class="post-content">
+      {{ post.content }}
+    </div>
+  </div>
+  <hr>
   {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}" class="older">Older</a>
+  {% else %}
+    <span class="next">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a href="/" class="newer">Newer</a>
+    {% else %}
+      <a href="/page{{paginator.previous_page}}" class="newer">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="previous">Newer</span>
+  {% endif %}
 </div>

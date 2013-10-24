@@ -303,7 +303,6 @@ Express 3.x is in beta, anytime now we can expect a stable release (and even mon
 
 _If you want to build an app from scratch using this approach, use the [boilerplate app](https://github.com/madhums/node-express-mongoose/)_
 
----
 ### Resources:
 
 * [demo site](http://nodejs-express-demo.herokuapp.com)

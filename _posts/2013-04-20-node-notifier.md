@@ -76,34 +76,6 @@ notifier.send('comment', options, function (err) {
 });
 ```
 
----
 ### Resources:
 
 * [node-notifier on github](https://github.com/madhums/node-notifier)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
