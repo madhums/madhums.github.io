@@ -4,24 +4,22 @@ keywords: nodejs, mongodb, backbone.js, javascript, developer, blog, madhums, ma
 summary: Writings about javascript, node.js, mongodb, backbone.js and everything else in the world.
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+{% for post in paginator.posts %}
+<div class="post">
+  <h1>
+    <a href="{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+  <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    <div class="post-content">
-      {{ post.content }}
-    </div>
+  <div class="post-content">
+    {{ post.content }}
   </div>
-  <hr>
-  {% endfor %}
 </div>
+<hr>
+{% endfor %}
 
 <!-- Pagination links -->
 <div class="pagination">
