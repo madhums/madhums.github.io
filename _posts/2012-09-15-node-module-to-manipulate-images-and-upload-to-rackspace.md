@@ -3,7 +3,7 @@ layout: post
 categories: [cloudfiles, imager, images, nodejs, rackspace, s3, amazon]
 tumblr_id: 31620857044
 date: 2012-09-15 23:58:00 UTC
-title: Imager - manipulate images and upload to rackspace & S3
+title: Imager - manipulate images and upload to rackspace and S3
 keywords: nodejs, images, S3, amazon, rackspace, cloudfiles, imagemagick, imager
 summary: A node module to resize, crop, maintain different variants of the image and upload to rackspace or amazon S3
 github: https://github.com/madhums/node-imager
