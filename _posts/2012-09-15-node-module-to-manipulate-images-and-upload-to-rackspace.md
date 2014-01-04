@@ -11,13 +11,13 @@ github: https://github.com/madhums/node-imager
 
 A Node.js module to resize, crop, manipulate images, maintain different presets of the same image and upload to rackspace cloudfiles. Its completely asynchronous.
 
-## Installation
+### Installation
 
 ```sh
 $ npm install imager
 ```
 
-## Usage
+### Usage
 **You need to create imager configuration file with image variants and your storages**
 
 Below is an example config
@@ -51,7 +51,7 @@ var Imager = require('imager');
   , imager = new Imager(imagerConfig, 'Rackspace')
 ```
 
-## Uploading file(s)
+### Uploading file(s)
 
 The callback recieves an err object, a files array (containing the names of the files which were uploaded) and the cdnUri.
 
@@ -79,7 +79,7 @@ imager.upload(['/path/to/file'], function (err, cdnUri, files) {
 
 Here files can be an array or a string. Make sure the path is absolute.
 
-## Removing file(s)
+### Removing file(s)
 
 **Remove from cloudfiles**
 
@@ -94,13 +94,13 @@ imager.remove(files, function (err) {
 
 Even here, if the variant is not specified, imager will try to look for the `default` variant. If neither of them are provided, you will get an error.
 
-## Debugging
+### Debugging
 If you specify `debug: true` in the imager config, you can see the logs of uploaded / removed files.
 
-## To-do's
+### To-do's
 * Support amazon storage
 * Write more tests
 
-### Resources:
+#### Resources:
 
 * [Github source](https://github.com/madhums/node-imager)

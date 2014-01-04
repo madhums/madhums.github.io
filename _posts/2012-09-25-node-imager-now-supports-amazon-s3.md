@@ -29,6 +29,6 @@ and specify `S3` while initializing imager
 var imager = new Imager(imagerConfig, 'S3')
 ```
 
-### Resources:
+#### Resources:
 
 * [node-imager on github](https://github.com/madhums/node-imager)

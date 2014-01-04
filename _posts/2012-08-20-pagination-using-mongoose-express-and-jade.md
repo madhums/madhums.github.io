@@ -84,7 +84,7 @@ res.locals.createPagination = function (pages, page) {
 
 That's it!
 
-### Resources:
+#### Resources:
 
 * [Demo](http://nodejs-express-demo.herokuapp.com/)
 * [Source](https://github.com/madhums/nodejs-express-mongoose-demo)

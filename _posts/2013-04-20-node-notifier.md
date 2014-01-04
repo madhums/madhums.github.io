@@ -9,7 +9,7 @@ github: https://github.com/madhums/node-notifier
 
 One of the most common things while developing API's or web applications is that you want to notify your users about some new stuff. node-notifier is a simple module that makes notifications easy.
 
-## Installation
+### Installation
 
 ```sh
 $ npm install notifier
@@ -17,7 +17,7 @@ $ npm install notifier
 
 or include it in `package.json`
 
-## Usage
+### Usage
 
 For email notifications, you have to use (jade) templates to write the email body. By default it uses [postmarkapp](http://postmarkapp.com) to send emails (in the upcoming versions you'll be able to configure this). If you plan to not use jade, you can override the `processTemplate` method to use templating language of your choice.
 
@@ -76,6 +76,6 @@ notifier.send('comment', options, function (err) {
 });
 ```
 
-### Resources:
+#### Resources:
 
 * [node-notifier on github](https://github.com/madhums/node-notifier)

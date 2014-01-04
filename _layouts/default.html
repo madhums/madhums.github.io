@@ -16,9 +16,9 @@
     <meta name="keywords" content="{{ page.keywords }}" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/public/css/hyde.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
-
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/madhums.css">
+<!--  -->
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/public/favicon.png">
@@ -28,31 +28,13 @@
   </head>
   <body>
 
-    <header class="masthead">
-      <div class="masthead-inner">
-        <!-- <h1>Hyde</h1> -->
-        <a href="/" class="logo" title="{{ site.author.name }}">
-          <span>{{ site.author.name }}</span>
-        </a>
-        <p class="lead">
-          Open Source enthusiast, Programmer, Thinker, Traveller, Minimalist.
-        </p>
-
-        <div class="colophon">
-          <ul class="colophon-links">
-            <li class="credit"><a href="/about">about</a></li>
-            <li class="credit">Hyde Theme by @mdo</li>
-            <li class="credit">Powered by GitHub and Jekyll</li>
-            <li class="credit">
-              <a href="http://github.com/madhums">Fork this on github</a>
-            </li>
-          </ul>
-          <p>&copy; 2013. {{ site.author.name }} All rights reserved.</p>
-        </div>
-
-      </div>
+    <header class="masthead container">
+      <h4 class="col-md-10">
+        <a href="/">Madhusudhan Srinivasa</a>
+      </h4>
+      <a href="/about" class="col-md-2 about">about</a>
     </header>
-
+    <hr>
     <div class="content container">
       <div class="posts">
         {{ content }}
