@@ -107,3 +107,9 @@ a.about {
 .related {
   margin-bottom: 50px;
 }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
