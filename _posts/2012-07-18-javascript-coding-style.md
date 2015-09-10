@@ -1,11 +1,8 @@
 ---
-layout: post
-categories: [javascript, code-style]
-tumblr_id: 27512517853
-date: 2012-07-18 22:51:59 UTC
 title: javascript coding style
+description: javascript coding style
 keywords: javascript, coding, style
-summary: javascript styling guide I follow for node.js. Other style guide references
+categories: [javascript, style]
 ---
 
 This is the javascript coding style I follow

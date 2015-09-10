@@ -1,11 +1,8 @@
 ---
-layout: post
-categories: [dotfiles, development, bash]
-tumblr_id: 29122941812
-date: 2012-08-10 13:43:00 UTC
-title: my development environment setup!
+title: Dev environment setup!
+description: Just a small writeup on how I have configured my development environment.
 keywords: bash, development, environment, dotfiles
-summary: Just a small writeup on how I have configured my development environment.
+categories: [dotfiles, development, bash]
 ---
 
 I am a node.js developer and in my everyday development I mostly have node.js , mongodb servers running, bash is my default shell, I was using sublimetext as my default editor until textmate was opensourced yesterday!

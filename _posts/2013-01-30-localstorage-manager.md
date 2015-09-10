@@ -1,21 +1,19 @@
 ---
-layout: post
-categories: [javascript, localstorage]
 title: localStorage manager (lm.js)
+description: A library for storing and querying with localStorage
 keywords: javascript, localStorage
-summary: localStorage manager (lm.js) - A simple wrapper around `localStorage` with which you can store, query and perform CRUD operations on collections and documents.
-github: https://github.com/madhums/lm.js
+categories: [javascript, localStorage]
 ---
 
 localStorage manager (lm.js) is a simple wrapper around `localStorage` with which you can store, query and perform CRUD operations on collections and documents in an easy way.
 
-### Initialize your app
+## Initialize your app
 
 ```js
 var todoapp = new lm('todoapp');
 ```
 
-### Create a collection
+## Create a collection
 
 ```js
 // create collection
@@ -32,7 +30,7 @@ var todosList = [
 var list = todoapp.create('todos', todosList);
 ```
 
-### Add records to collection
+## Add records to collection
 
 ```js
 // create collection
@@ -42,7 +40,7 @@ var list = todoapp.create('todos');
 list.add({ name: 'shopping' });
 ```
 
-### Chain them
+## Chain them
 
 ```js
 var archived = todoapp
@@ -53,21 +51,21 @@ var archived = todoapp
   .add({ name: 'cleaning', tag: 'kitchen' });
 ```
 
-### Remove a collection
+## Remove a collection
 
 ```js
 // remove a collection
 todoapp.remove('todos');
 ```
 
-### Retrieve a collection
+## Retrieve a collection
 
 ```js
 // get collection
 var archived = todoapp.get('archived');
 ```
 
-### Find within a collection
+## Find within a collection
 
 ```js
 archived.find({ tag: 'kitchen' }, function (docs) {
@@ -77,7 +75,7 @@ archived.find({ tag: 'kitchen' }, function (docs) {
 });
 ```
 
-### Update a document within a collection
+## Update a document within a collection
 
 ```js
 archived.find({ tag: 'kitchen' }, function (docs) {
@@ -91,7 +89,7 @@ archived.find({ tag: 'kitchen' }, function (docs) {
 });
 ```
 
-### Remove a document within a collection
+## Remove a document within a collection
 
 ```js
 archived.find({ tag: 'kitchen' }, function (docs) {
@@ -108,14 +106,16 @@ archived.find({ tag: 'kitchen' }, function (docs) {
 
 To use it, just source `lm.js` in your app.
 
-### Tests
+## Tests
 
 You can see the test results on [travis-ci](https://travis-ci.org/madhums/lm.js)
 
-### Limitations
+## Limitations
 
 Localstorage has a limitation of 5MB, so if you want to use offline data storage with files etc, [indexedDB](http://hacks.mozilla.org/2012/02/storing-images-and-files-in-indexeddb/) would be a good option.
 
-#### Resources:
+---
+
+## Resources:
 
 * [lm.js on github](https://github.com/madhums/lm.js)

@@ -1,12 +1,8 @@
 ---
-layout: post
-categories: [mongoose, express, jade, pagination, node.js]
-tumblr_id: 29813258042
-date: 2012-08-20 05:54:00 UTC
 title: pagination using mongoose, express and jade
+description: Pagination using mongoose, express and jade.
 keywords: mongoose, express, jade, pagination
-summary: Pagination using mongoose, express and jade.
-github: https://github.com/madhums/nodejs-express-mongoose-demo
+categories: [mongoose, express, jade, pagination, node.js]
 ---
 
 Ok, here's how to create simple pagination using jade and mongoose.
@@ -84,7 +80,9 @@ res.locals.createPagination = function (pages, page) {
 
 That's it!
 
-#### Resources:
+---
+
+## Resources:
 
 * [Demo](http://nodejs-express-demo.herokuapp.com/)
 * [Source](https://github.com/madhums/nodejs-express-mongoose-demo)

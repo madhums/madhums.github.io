@@ -1,12 +1,9 @@
 ---
-layout: post
-categories: [node.js, bash]
-tumblr_id: 32360228612
-date: 2012-09-26 23:50:00 UTC
 title: Install/update node.js in just one command!
+date: 2012-09-26 23:50:00 UTC
+description: Install or update node.js in one command
 keywords: install, nodejs, update
-summary: Install or update node.js in one command
-github: https://raw.github.com/gist/3791075
+categories: [node.js, bash]
 ---
 
 A simple script to install/update the much frequently updated [node.js](http://nodejs.org) platform.
@@ -32,6 +29,8 @@ Now you can simply run `update-node 0.8.10` !
 
 Oh and btw, it will install node to `~/local/node` directory.
 
-#### Resources:
+---
+
+## Resources:
 
 * [gist source](https://gist.github.com/3791075)

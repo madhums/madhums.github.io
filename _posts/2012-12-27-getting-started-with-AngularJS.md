@@ -1,9 +1,8 @@
 ---
-layout: post
-categories: [angular, javascript]
 title: Getting started with AngularJS
+description: Day 1 and 2 with angular
 keywords: angular, javascript, comparison, backbone
-summary: I wrote a blog post couple of days back about the pain I was facing with developing client side web apps (with backbone). I tried angular and it tries to solve the problems I was facing. I was looking for something which increases productivity, reduces the code and hence easier to maintain, follows conventions, gives you separation of concerns, follows test first approach.
+categories: [angular, javascript]
 ---
 
 I wrote a blog [post](http://madhums.me/2012/10/02/trade-offs-of-purely-client-side-development-approach/) couple of days back about the pain I was facing in developing client side web apps (with backbone). I tried angular and it tries to solve the problems I was having.

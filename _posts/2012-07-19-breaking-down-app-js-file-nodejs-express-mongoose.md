@@ -1,12 +1,8 @@
 ---
-layout: post
-categories: [express, javascript, mongoose, nodejs]
-tumblr_id: 27521420404
-date: 2012-07-19 01:10:00 UTC
-title: Breaking down app.js file - nodejs, express, mongoose
-keywords: mongoose, nodejs, express, mongodb
-summary: A demo app illustrating the usage of express framework, mongoose orm and mongodb in node.js. It also illustrates how to properly organize your application
-github: https://github.com/madhums/nodejs-express-mongoose-demo
+title: Structuring express.js applications
+description: Breaking down app.js
+keywords: node.js, express.js, mongoose
+categories: [mongoose, pagination]
 ---
 
 A working draft of the app architecture is in progress, visit the boilerplate [wiki](https://github.com/madhums/node-express-mongoose/wiki)
@@ -50,7 +46,7 @@ Modules used
 4.   [Mongoose-auth](https://github.com/bnoguchi/mongoose-auth#readme) (authentication plugin for mongoose)
 5.   [Everyauth](http://everyauth.com/) (auth package (password, facebook, & more) for Connect and Express apps)
 
-### Anatomy of app.js file
+## Anatomy of app.js file
 The app.js file does all the bootstrapping by `require`-ing all the controllers, models and middlewares.
 
 ```js
@@ -106,12 +102,12 @@ As you can see, we can break the app.js into 5 parts. Bootstrapping
 4. Settings (`./settings.js`)
 5. Error handlers and other helpers (`./error-handlers.js`)
 
-### 1. config `./config/config.yaml`
+## 1. config `./config/config.yaml`
 The config file holds environment specific settings. Based on NODE_ENV the corresponding config is chosen. So I am using `yaml-config` module for loading this, you can also use a simple json file or js file exporting the required configs.
 
 You can also use [npm config](http://npmjs.org/doc/config.html).
 
-### 2. Models `./app/models/`
+## 2. Models `./app/models/`
 The model files contain the schema, methods, pre-save hooks, pre-delete hooks, validations and other background processing stuff.
 
 ```js
@@ -159,7 +155,7 @@ Article
 
 There are many other awesome stuff mongoose provides. Do take a look at mongoose [tests](https://github.com/LearnBoost/mongoose/tree/master/test) and the [documentation](http://mongoosejs.com/).
 
-### 3. Controllers `./app/controllers/`
+## 3. Controllers `./app/controllers/`
 The controller files contain the routes, routing middlewares, business logic, template rendering and dispatching.
 
 ```js
@@ -186,7 +182,7 @@ module.exports = function(app, auth){
 
 As you can see, the articles controller is passed with `app` and `auth` arguments. Here, auth is used as routing middleware. If you take a look at `./authorization.js`, each function is a routing middleware. Based on type of user and requested article, you can control the authorization using the routing middleware.
 
-### 4. Settings `./settings.js`
+## 4. Settings `./settings.js`
 The settings file deals with express specific settings. It sets the view engine, some dynamic view helpers and other environment specific settings.
 
 ```js
@@ -284,10 +280,10 @@ app.use(express.logger(':method :url :status'))
 
 **Please note that the order of `use`-ing middlewares is very important!**
 
-### 5. Error handlers `./error-handler.js`
+## 5. Error handlers `./error-handler.js`
 The error handler file handles the 404 and 500 errors by rendering a template. If you check the `views` folder, you can see there are 2 templates, one for 404 and the other for 500 errors.
 
-### Views `./app/views/`
+## Views `./app/views/`
 The demo app uses [jade](http://jade-lang.com/) as template engine. The views are organized quite similar to rails. There is a `./app/views/layouts` folder which contains the default layout within which our templates will be rendered. There is an `includes` folder which includes the common parts of the page (like footer, header). There are pretty cool helpers like `contentFor()` etc - similar to the one in rails, do check out the `./settings.js` file.
 
 **Flash messages**
@@ -296,14 +292,16 @@ I am using [express messages](http://github.com/visionmedia/express-messages) to
 
 The current demo app uses [twitter bootstrap](http://twitter.github.com/bootstrap) for UI, if you checkout the earlier commits/tags, you can use [stylus](http://learnboost.github.com/stylus/).
 
-### Migrating express from 2.x to 3.x + Node 0.6.x to 0.8.x
+## Migrating express from 2.x to 3.x + Node 0.6.x to 0.8.x
 Express 3.x is in beta, anytime now we can expect a stable release (and even mongoose, which is in 3.x). I am starting a migration branch and also planning to blog about the changes/issues I face during the migration process.
 
 **Update:** The demo has been updated to use all the latest modules. More authentications have been added using passport.js. Do take a look at the source!
 
 _If you want to build an app from scratch using this approach, use the [boilerplate app](https://github.com/madhums/node-express-mongoose/)_
 
-#### Resources:
+---
+
+## Resources:
 
 * [demo site](http://nodejs-express-demo.herokuapp.com)
 * [source code on github](http://github.com/madhums/nodejs-express-mongoose-demo)
