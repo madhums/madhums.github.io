@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Install/update node.js in just one command!
 date: 2012-09-26 23:50:00 UTC
 description: Install or update node.js in one command

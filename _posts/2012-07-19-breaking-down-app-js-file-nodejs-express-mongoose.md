@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Structuring express.js applications
 description: Breaking down app.js
 keywords: node.js, express.js, mongoose

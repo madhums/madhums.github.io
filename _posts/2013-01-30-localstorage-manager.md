@@ -1,4 +1,5 @@
 ---
+layout: post
 title: localStorage manager (lm.js)
 description: A library for storing and querying with localStorage
 keywords: javascript, localStorage
@@ -13,7 +14,7 @@ localStorage manager (lm.js) is a simple wrapper around `localStorage` with whic
 var todoapp = new lm('todoapp');
 ```
 
-## Create a collection
+## Create
 
 ```js
 // create collection
@@ -30,7 +31,7 @@ var todosList = [
 var list = todoapp.create('todos', todosList);
 ```
 
-## Add records to collection
+## Add records
 
 ```js
 // create collection
@@ -51,21 +52,21 @@ var archived = todoapp
   .add({ name: 'cleaning', tag: 'kitchen' });
 ```
 
-## Remove a collection
+## Remove
 
 ```js
 // remove a collection
 todoapp.remove('todos');
 ```
 
-## Retrieve a collection
+## Retrieve
 
 ```js
 // get collection
 var archived = todoapp.get('archived');
 ```
 
-## Find within a collection
+## Find
 
 ```js
 archived.find({ tag: 'kitchen' }, function (docs) {
@@ -75,7 +76,7 @@ archived.find({ tag: 'kitchen' }, function (docs) {
 });
 ```
 
-## Update a document within a collection
+## Update a document
 
 ```js
 archived.find({ tag: 'kitchen' }, function (docs) {
@@ -89,7 +90,7 @@ archived.find({ tag: 'kitchen' }, function (docs) {
 });
 ```
 
-## Remove a document within a collection
+## Remove a document
 
 ```js
 archived.find({ tag: 'kitchen' }, function (docs) {

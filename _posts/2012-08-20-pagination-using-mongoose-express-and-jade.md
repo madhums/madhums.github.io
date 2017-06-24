@@ -1,4 +1,5 @@
 ---
+layout: post
 title: pagination using mongoose, express and jade
 description: Pagination using mongoose, express and jade.
 keywords: mongoose, express, jade, pagination

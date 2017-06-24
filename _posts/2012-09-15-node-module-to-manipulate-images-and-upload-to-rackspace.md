@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Manipulate and upload images to cloud
 description: A node module to resize, crop images + cloud uploads
 keywords: nodejs, images, S3, amazon, rackspace, cloudfiles, imagemagick, imager

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: node-imager now supports amazon S3
 date: 2012-09-25 21:32:57 UTC
 description: node-imager now supports amazon s3 storage

@@ -1,16 +1,22 @@
 ---
+layout: page
 title: About
-permalink: about/
-profile: true
+permalink: /about/
 ---
 
-I am a software engineer, with a background in product and user experience design. I enjoy thinking about user experience as much as solving difficult technical problems.
+Hi, I am Madhu, welcome to my site! I am a **Full stack programmer and a UX designer** currently living in the Netherlands. I _love travelling and people_. I like to with **work on stuff that creates an impact in the society** we live in. Checkout my [portfolio](/portfolio) to see the work I have done or currently doing.
 
-I love programming in JavaScript and Golang. My dream is to travel around the world (also work from anywhere I want).
+## What do I do?
 
-Most of the times, you can find me on [twitter](http://twitter.com/madhums), [github](http://github.com/madhums), [soundcloud](http://soundcloud.com/madhums) and you can write to me at [ _me at madhums dot me_ ]
+I help startups to build online products and solutions using web and mobile technologies.
 
+## How do I do?
 
-Thanks to [nickbalestra](https://github.com/nickbalestra/kactus) for the theme. Fork this repo [here](https://github.com/madhums/madhums.github.io).
+- I brainstorm ideas with product owners, come up with _user stories_
+- I initially _sketch_ the ideas on a _whiteboard_ to come up with the _user flows_ and think it out loud. At this phase I prefer to include the _team_ that is involved as it brings _alignment_. This is also the stage where I sometimes use parts of _[google design sprint](http://designsprintkit.withgoogle.com)_.
+- Design using _[SketchApp](https://www.sketchapp.com/)_ (if needed)
+- Code it!
 
-{% include footer.html %}
+I use [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) to implement the solutions. For web, I use [React](https://facebook.github.io/react/) and for mobile, [React Native](https://facebook.github.io/react-native/). And for the rest of web and mobile frontend, I use the react ecosystem. For backend, I use [Node.js](https://nodejs.org/en/) and [MongoDB](https://www.mongodb.com/).
+
+If what I do intrigues you weather it's a completely new idea or an already existing product, drop me a line and I shall get back to you!

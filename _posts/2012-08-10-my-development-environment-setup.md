@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Dev environment setup!
 description: Just a small writeup on how I have configured my development environment.
 keywords: bash, development, environment, dotfiles

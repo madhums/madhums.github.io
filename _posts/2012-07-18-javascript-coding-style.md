@@ -1,4 +1,5 @@
 ---
+layout: post
 title: javascript coding style
 description: javascript coding style
 keywords: javascript, coding, style

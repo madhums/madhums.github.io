@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Trade-offs of purely client side apps
 date: 2012-10-02 16:21:52 UTC
 description: Trade-offs of client side development approach

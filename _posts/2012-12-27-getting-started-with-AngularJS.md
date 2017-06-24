@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Getting started with AngularJS
 description: Day 1 and 2 with angular
 keywords: angular, javascript, comparison, backbone
