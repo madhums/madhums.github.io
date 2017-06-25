@@ -13,11 +13,11 @@ I help startups to build online products and solutions using web and mobile tech
 ## How do I do?
 
 - I brainstorm ideas with product owners, come up with _user stories_
-- I initially _sketch_ the ideas on a _whiteboard_ to come up with the _user flows_ and think it out loud. At this phase I prefer to include the _team_ that is involved as it brings _alignment_. This is also the stage where I sometimes use parts of _[google design sprint](http://designsprintkit.withgoogle.com)_.
-- Design using _[SketchApp](https://www.sketchapp.com/)_ (if needed)
+- I initially _sketch_ the ideas on a _whiteboard_ to come up with the _user flows_ and think it out loud. At this phase I prefer to include the _team_ that is involved as it brings _alignment_. This is also the stage where I sometimes use parts of [google design sprint](http://designsprintkit.withgoogle.com).
+- Design using _SketchApp_ (if needed)
 - Code it!
 
-I use [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [Open Source Software](https://en.wikipedia.org/wiki/Open-source_software) to implement the solutions. For web, I use [React](https://facebook.github.io/react/) and for mobile, [React Native](https://facebook.github.io/react-native/). And for the rest of web and mobile frontend, I use the react ecosystem. For backend, I use [Node.js](https://nodejs.org/en/) and [MongoDB](https://www.mongodb.com/).
+I use [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [Open Source Software](https://en.wikipedia.org/wiki/Open-source_software) to implement the solutions. For web, I use React and for mobile, React Native. And for the rest of web and mobile frontend, I use the react ecosystem. For backend, I use Node.js and MongoDB.
 
 I not only use OSS to build solutions, but also contribute back. Checkout my github to see OSS contributions.
 
