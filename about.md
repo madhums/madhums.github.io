@@ -19,6 +19,6 @@ I help startups to build online products and solutions using web and mobile tech
 
 I use [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [Open Source Software](https://en.wikipedia.org/wiki/Open-source_software) to implement the solutions. For web, I use [React](https://facebook.github.io/react/) and for mobile, [React Native](https://facebook.github.io/react-native/). And for the rest of web and mobile frontend, I use the react ecosystem. For backend, I use [Node.js](https://nodejs.org/en/) and [MongoDB](https://www.mongodb.com/).
 
-I not only use OSS to build solutions, but also believe in contributing back. Checkout my github to see OSS contributions.
+I not only use OSS to build solutions, but also contribute back. Checkout my github to see OSS contributions.
 
 If what I do intrigues you weather it's a completely new idea or an already existing product, drop me a line and I shall get back to you!
