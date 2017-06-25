@@ -12,6 +12,8 @@ Here's a curated list of applications I have worked on in the last 2 years.
 
 <span class="post-meta">2017</span>
 <span class="tag">health</span>
+<span class="tag">big data</span>
+<span class="tag">dataviz</span>
 
 QMi Dashboard is a platform to improve health and sustainability of food products.
 
@@ -77,6 +79,7 @@ Child Portfolio is a platform for kids to create their portfolio; communicate wi
 <span class="post-meta">2016</span>
 <span class="tag">education</span>
 <span class="tag">collaboration</span>
+<span class="tag">api</span>
 
 Projectcampus is a platform for students to collaborate on projects and learn by doing.
 
