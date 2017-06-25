@@ -20,9 +20,9 @@ QMi Dashboard is a platform to improve health and sustainability of food product
 <img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
 
 <p>
-  <span class="tag">health</span>
   <span class="tag">big data</span>
   <span class="tag">dataviz</span>
+  <span class="tag">react</span>
 </p>
 
 <a href="https://www.qmintelligence.com/qmi-dashboard-en-gezondheidsbenchmarks/">View</a>
@@ -41,8 +41,7 @@ This is the website for QMintelligence.
 <img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
 
 <p>
-  <span class="tag">health</span>
-  <span class="tag">sustainability</span>
+  <span class="tag">squarespace</span>
 </p>
 
 <a href="https://www.qmintelligence.com/">View</a>
@@ -61,9 +60,7 @@ Checkit is a grocery listing app with a fine touch to health and sustainability.
 <img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
 
 <p>
-  <span class="tag">food</span>
-  <span class="tag">health</span>
-  <span class="tag">sustainability</span>
+  <span class="tag">react-native</span>
 </p>
 
 <a href="http://www.thequestionmark.org/checkit">View</a>
@@ -82,8 +79,7 @@ Child Portfolio is a platform for kids to create their portfolio; communicate wi
 <img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
 
 <p>
-  <span class="tag">education</span>
-  <span class="tag">communication</span>
+  <span class="tag">react</span>
 </p>
 
 <a href="https://www.socialschools.nl/leerlingportfolio/">View</a>
@@ -102,9 +98,8 @@ Projectcampus is a platform for students to collaborate on projects and learn by
 <img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
 
 <p>
-  <span class="tag">education</span>
-  <span class="tag">collaboration</span>
-  <span class="tag">api</span>
+  <span class="tag">node.js</span>
+  <span class="tag">mongodb</span>
 </p>
 
 <a href="https://about.projectcamp.us/">View</a>
