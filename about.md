@@ -15,10 +15,10 @@ I help startups to build applications using web and mobile technologies.
 - I brainstorm ideas with product owners, come up with _user stories_
 - I initially _sketch_ the ideas on a _whiteboard_ to come up with the _user flows_ and think it out loud. At this phase I prefer to include the _team_ that is involved as it brings _alignment_. This is also the stage where I sometimes use parts of [google design sprint](http://designsprintkit.withgoogle.com).
 - Design using _SketchApp_ (if needed)
-- Code it!
+- _Code_ it!
 
-I use [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [Open Source Software](https://en.wikipedia.org/wiki/Open-source_software) to implement the solutions. For web, I use React and for mobile, React Native. And for the rest of web and mobile frontend, I use the react ecosystem. For backend, I use Node.js and MongoDB.
+I use JavaScript and [Open Source Software](https://en.wikipedia.org/wiki/Open-source_software) (OSS) to implement the solutions. For web, I use React and for mobile, React Native. For backend, I use Node.js and MongoDB.
 
-I not only use OSS to build solutions, but also contribute back. Checkout my github to see OSS contributions.
+I not only use OSS to build solutions, but also contribute back. Checkout my github to see my contributions.
 
 If what I do intrigues you weather it's a completely new idea or an already existing application, drop me a line and I shall get back to you!
