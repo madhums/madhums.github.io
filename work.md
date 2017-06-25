@@ -15,9 +15,9 @@ Here's a curated list of applications I have worked on in the last 2 years.
 
 QMi Dashboard is a platform to improve health and sustainability of food products.
 
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
 
 <p>
   <span class="tag">big data</span>
@@ -36,9 +36,9 @@ QMi Dashboard is a platform to improve health and sustainability of food product
 
 This is the website for QMintelligence.
 
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
 
 <p>
   <span class="tag">squarespace</span>
@@ -55,9 +55,9 @@ This is the website for QMintelligence.
 
 Checkit is a grocery listing app with a fine touch to health and sustainability.
 
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
 
 <p>
   <span class="tag">react-native</span>
@@ -74,9 +74,9 @@ Checkit is a grocery listing app with a fine touch to health and sustainability.
 
 Child Portfolio is a platform for kids to create their portfolio; communicate with parents, other kids and teachers.
 
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
 
 <p>
   <span class="tag">react</span>
@@ -93,9 +93,9 @@ Child Portfolio is a platform for kids to create their portfolio; communicate wi
 
 Projectcampus is a platform for students to collaborate on projects and learn by doing.
 
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ccc&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
 
 <p>
   <span class="tag">node.js</span>
