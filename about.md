@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am Madhu, welcome to my site! I am a Full stack programmer and a UX designer currently living in the Netherlands. I love travelling and people. I like to work on stuff that creates an impact in the society we live in.
+Hi, I am Madhu, welcome to my site! I am a Freelance Full stack Programmer and a UX Designer currently living in the Netherlands. I love travelling and people. I like to work on stuff that creates an impact in the society we live in.
 
 ## What do I do?
 
-I help startups to build online products and solutions using web and mobile technologies.
+I help startups to build applications using web and mobile technologies.
 
 ## How do I do?
 
@@ -21,4 +21,4 @@ I use [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and 
 
 I not only use OSS to build solutions, but also contribute back. Checkout my github to see OSS contributions.
 
-If what I do intrigues you weather it's a completely new idea or an already existing product, drop me a line and I shall get back to you!
+If what I do intrigues you weather it's a completely new idea or an already existing application, drop me a line and I shall get back to you!

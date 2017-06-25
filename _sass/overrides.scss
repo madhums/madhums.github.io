@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 hr {
-  margin: 30px 0 15px 0;
+  margin: 50px 0 40px 0;
   border-top: 1px solid #ddd;
 }
 
@@ -57,6 +57,8 @@ hr {
 
 .post-title {
   @include relative-font-size(2.1);
+  font-weight: bold;
+  line-height: $base-line-height * $base-font-size * 1.7;
 }
 
 .post-content {
@@ -83,4 +85,19 @@ hr {
       @include relative-font-size(1.125);
     }
   }
+}
+
+img.img-portfolio {
+  margin: 0 10px 10px 0;
+  width: 200px;
+}
+
+.tag {
+  background: $brand-color;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  margin-left: 5px;
 }
