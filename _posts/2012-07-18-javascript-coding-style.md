@@ -6,6 +6,11 @@ keywords: javascript, coding, style
 categories: [javascript, style]
 ---
 
+
+**Update**: I don't follow this style anymore. I use [semistandard](https://github.com/Flet/semistandard)
+
+---
+
 This is the javascript coding style I follow
 
 1. Comma first

@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am Madhu, welcome to my site! I am a Full stack programmer and a UX designer currently living in the Netherlands. I love travelling and people. I like to with work on stuff that creates an impact in the society we live in.
+Hi, I am Madhu, welcome to my site! I am a Full stack programmer and a UX designer currently living in the Netherlands. I love travelling and people. I like to work on stuff that creates an impact in the society we live in.
 
 ## What do I do?
 
