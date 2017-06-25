@@ -10,7 +10,7 @@ Hi, I am Madhu, welcome to my site! I am a Freelance Full stack Programmer and a
 
 I help startups to build applications using web and mobile technologies.
 
-## How do I do?
+## How do I do it?
 
 - I brainstorm ideas with product owners, come up with _user stories_
 - I initially _sketch_ the ideas on a _whiteboard_ to come up with the _user flows_ and think it out loud. At this phase I prefer to include the _team_ that is involved as it brings _alignment_. This is also the stage where I sometimes use parts of [google design sprint](http://designsprintkit.withgoogle.com).
