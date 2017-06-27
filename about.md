@@ -8,7 +8,7 @@ Hi, I am Madhu, welcome to my site! I am a Freelance Full stack Programmer and a
 
 ## What do I do?
 
-I help startups to build applications using web and mobile technologies.
+I help startups to build scalable businesses, communities and applications using web and mobile technologies.
 
 ## How do I do it?
 
