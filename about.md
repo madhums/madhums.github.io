@@ -21,4 +21,4 @@ I use JavaScript and [Open Source Software](https://en.wikipedia.org/wiki/Open-s
 
 I not only use OSS to build solutions, but also contribute back. Checkout my github to see my contributions.
 
-If what I do intrigues you, weather it's a completely new idea or an already existing application, drop me a line and I shall get back to you!
+If what I do intrigues you, whether it's a completely new idea or an already existing application, drop me a line and I shall get back to you!
