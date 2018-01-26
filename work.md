@@ -25,7 +25,7 @@ QMi Dashboard is a platform to improve health and sustainability of food product
   <span class="tag">react</span>
 </p>
 
-<a href="https://www.qmintelligence.com/qmi-dashboard-en-gezondheidsbenchmarks/">View</a>
+<a href="https://qmintelligence.squarespace.com/product-performance-dashboard/">View</a>
 
 ---
 
