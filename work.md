@@ -50,25 +50,6 @@ QMi Dashboard is a platform to improve health and sustainability of food product
 ---
 
 <h2>
-  QMintelligence
-  <span class="post-meta pull-right">2017</span>
-</h2>
-
-This is the website for QMintelligence.
-
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-
-<p>
-  <span class="tag">squarespace</span>
-</p>
-
-<a href="https://www.qmintelligence.com/">View</a>
-
----
-
-<h2>
   Checkit
   <span class="post-meta pull-right">2016</span>
 </h2>
