@@ -13,7 +13,7 @@ Here's a curated list of applications I have worked on in the last 2 years.
   <span class="post-meta pull-right">2018</span>
 </h2>
 
-The Questionmark website. Questionmark does research on health and sustainability of food products.
+Questionmark carries independent research into the environmental friendliness, labour conditions, animal welfare and health aspects of consumer products.
 
 <img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
 <img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
@@ -25,6 +25,30 @@ The Questionmark website. Questionmark does research on health and sustainabilit
 </p>
 
 <a href="https://www.thequestionmark.org/">View</a>
+
+---
+
+<h2>
+  Hallo Boer (Hallo Farmer)
+  <span class="post-meta pull-right">2018</span>
+</h2>
+
+Hallo Boer connects consumers like me and you to farmers (producer) directly, thus supporting more local and sustainable means of supply-chain.
+
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+
+<p>
+  <span class="tag">api</span>
+  <span class="tag">node.js</span>
+  <span class="tag">mongodb</span>
+  <span class="tag">leaflet</span>
+  <span class="tag">next.js</span>
+  <span class="tag">react</span>
+</p>
+
+<a href="https://www.halloboer.org/">View</a>
 
 ---
 
