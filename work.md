@@ -22,6 +22,7 @@ Questionmark carries independent research into the environmental friendliness, l
 <p>
   <span class="tag">next.js</span>
   <span class="tag">react</span>
+  <span class="tag">ux</span>
 </p>
 
 <a href="https://www.thequestionmark.org/">View</a>
@@ -46,6 +47,7 @@ Hallo Boer connects consumers like me and you to farmers (producer) directly, th
   <span class="tag">leaflet</span>
   <span class="tag">next.js</span>
   <span class="tag">react</span>
+  <span class="tag">ux</span>
 </p>
 
 <a href="https://www.halloboer.org/">View</a>
@@ -67,6 +69,7 @@ QMi Dashboard is a platform to improve health and sustainability of food product
   <span class="tag">big data</span>
   <span class="tag">dataviz</span>
   <span class="tag">react</span>
+  <span class="tag">ux</span>
 </p>
 
 <a href="https://www.qmintelligence.com/product-performance-dashboard/">View</a>
@@ -86,6 +89,7 @@ Checkit is a grocery listing app with a fine touch to health and sustainability.
 
 <p>
   <span class="tag">react-native</span>
+  <span class="tag">ux</span>
 </p>
 
 <a href="https://www.thequestionmark.org/blog/questionmark-lanceert-de-app-checkit">View</a>
