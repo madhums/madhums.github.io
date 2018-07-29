@@ -45,7 +45,7 @@ Here's a bunch of stuff that inspire me.
 - [Global vote](https://goodcountry.org/global-vote)
 - [How Good](https://howgood.com/#/)
 
-#### Documentaries (must watch)
+#### Documentaries
 - Cowspiracy
 - Sea the truth
 - Meat the truth
