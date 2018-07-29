@@ -30,7 +30,7 @@ Questionmark carries independent research into the environmental friendliness, l
 ---
 
 <h2>
-  Hallo Boer (Hallo Farmer)
+  Hallo Boer
   <span class="post-meta pull-right">2018</span>
 </h2>
 
@@ -78,7 +78,7 @@ QMi Dashboard is a platform to improve health and sustainability of food product
 
 <h2>
   Checkit
-  <span class="post-meta pull-right">2016</span>
+  <span class="post-meta pull-right">2017</span>
 </h2>
 
 Checkit is a grocery listing app with a fine touch to health and sustainability.
@@ -109,6 +109,7 @@ Child Portfolio is a platform for kids to create their portfolio; communicate wi
 
 <p>
   <span class="tag">react</span>
+  <span class="tag">ux</span>
 </p>
 
 <a href="https://www.socialschools.nl/leerlingportfolio/">View</a>
@@ -129,6 +130,7 @@ Projectcampus is a platform for students to collaborate on projects and learn by
 <p>
   <span class="tag">node.js</span>
   <span class="tag">mongodb</span>
+  <span class="tag">api</span>
 </p>
 
 <a href="https://about.projectcamp.us/">View</a>
