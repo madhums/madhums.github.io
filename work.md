@@ -81,7 +81,7 @@ QMi Dashboard is a platform to improve health and sustainability of food product
   <span class="post-meta pull-right">2017</span>
 </h2>
 
-Checkit is a grocery listing app with a fine touch to health and sustainability.
+Checkit is a grocery listing app with a fine touch to health and sustainability. (Unfortunately this project is discontinued now and is not available in the app stores)
 
 <img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
 <img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
