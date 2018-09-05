@@ -24,4 +24,5 @@ I not only use OSS to build solutions, but also contribute back. Checkout my git
 If what I do intrigues you, whether it's a completely new idea or an already existing application, drop me a line and I shall get back to you!
 
 ## Media
-[Tech for Agriculture Hackathon](https://www.farmhack.nl/results-tech4ag-hack-estonia/)
+[Tech for Agriculture - Farmhack](https://www.farmhack.nl/results-tech4ag-hack-estonia/)
+[Tech for Agriculture - EIP AGRI](https://ec.europa.eu/eip/agriculture/en/news/inspirational-ideas-agri-hackathon)
