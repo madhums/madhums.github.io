@@ -15,9 +15,9 @@ Here's a curated list of applications I have worked on in the last 2 years.
 
 Questionmark carries independent research into the environmental friendliness, labour conditions, animal welfare and health aspects of consumer products.
 
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
 
 <p>
   <span class="tag">next.js</span>
@@ -36,9 +36,9 @@ Questionmark carries independent research into the environmental friendliness, l
 
 Hallo Boer connects consumers like me and you to farmers (producer) directly, thus supporting more local and sustainable means of supply-chain.
 
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
 
 <p>
   <span class="tag">api</span>
@@ -61,9 +61,9 @@ Hallo Boer connects consumers like me and you to farmers (producer) directly, th
 
 QMi Dashboard is a platform to improve health and sustainability of food products.
 
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
 
 <p>
   <span class="tag">big data</span>
@@ -83,9 +83,9 @@ QMi Dashboard is a platform to improve health and sustainability of food product
 
 Checkit is a grocery listing app with a fine touch to health and sustainability. (Unfortunately this project is discontinued now and is not available in the app stores)
 
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
 
 <p>
   <span class="tag">react-native</span>
@@ -103,9 +103,9 @@ Checkit is a grocery listing app with a fine touch to health and sustainability.
 
 Child Portfolio is a platform for kids to create their portfolio; communicate with parents, other kids and teachers.
 
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
 
 <p>
   <span class="tag">react</span>
@@ -123,9 +123,9 @@ Child Portfolio is a platform for kids to create their portfolio; communicate wi
 
 Projectcampus is a platform for students to collaborate on projects and learn by doing.
 
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
-<img class="img-portfolio" src="https://placeholdit.co//i/400x300?&bg=ddd&fc=888&text=image">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
 
 <p>
   <span class="tag">node.js</span>
