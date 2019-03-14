@@ -1,0 +1,16 @@
+version: '3.2'
+
+services:
+  jekyll:
+    image: jekyll/jekyll
+    container_name: madhums
+    environment:
+        - JEKYLL_ENV=docker
+    # force_polling makes the linux box watch for any changes to files, then it will regenerate
+    # livereload gets the browser to automatically refresh when changes happen to files
+    command: jekyll serve
+    ports:
+        - 4000:4000
+        - 35729:35729
+    volumes:
+        - ./:/srv/jekyll

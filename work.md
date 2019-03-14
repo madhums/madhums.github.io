@@ -8,7 +8,7 @@ Here's a curated list of applications I have worked on in the last 2 years.
 
 <br/>
 
-<h2>
+<h2 class="mt-0">
   Questionmark
   <span class="post-meta pull-right">2018</span>
 </h2>
@@ -29,7 +29,7 @@ Questionmark carries independent research into the environmental friendliness, l
 
 ---
 
-<h2>
+<h2 class="mt-0">
   Hallo Boer
   <span class="post-meta pull-right">2018</span>
 </h2>
@@ -54,7 +54,7 @@ Hallo Boer connects consumers like me and you to farmers (producer) directly, th
 
 ---
 
-<h2>
+<h2 class="mt-0">
   QMi Dashboard
   <span class="post-meta pull-right">2017</span>
 </h2>
@@ -76,7 +76,7 @@ QMi Dashboard is a platform to improve health and sustainability of food product
 
 ---
 
-<h2>
+<h2 class="mt-0">
   Checkit
   <span class="post-meta pull-right">2017</span>
 </h2>
@@ -96,7 +96,7 @@ Checkit is a grocery listing app with a fine touch to health and sustainability.
 
 ---
 
-<h2>
+<h2 class="mt-0">
   SocialSchools Child Portfolio
   <span class="post-meta pull-right">2016</span>
 </h2>
@@ -116,7 +116,7 @@ Child Portfolio is a platform for kids to create their portfolio; communicate wi
 
 ---
 
-<h2>
+<h2 class="mt-0">
   Projectcampus
   <span class="post-meta pull-right">2016</span>
 </h2>
