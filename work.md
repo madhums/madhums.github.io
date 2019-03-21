@@ -10,7 +10,7 @@ Here's a curated list of applications I have worked on in the last 2 years.
 
 <h2 class="mt-0">
   Questionmark
-  <span class="post-meta pull-right">2018</span>
+  <span class="post-meta pull-right">2016 - 2019</span>
 </h2>
 
 Questionmark carries independent research into the environmental friendliness, labour conditions, animal welfare and health aspects of consumer products.
