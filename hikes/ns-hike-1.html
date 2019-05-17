@@ -69,8 +69,11 @@
 
     var layers = [outdoors, dark, satellite];
 
+    var hr = (new Date()).getHours();
+    var isDark = hr > 20 || hr < 7;
+
     var map = L.mapbox.map('map')
-      .addLayer(outdoors)
+      .addLayer(isDark ? dark : outdoors);
 
     var baseMaps = {
       "Outdoors": outdoors,
