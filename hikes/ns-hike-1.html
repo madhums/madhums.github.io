@@ -35,7 +35,19 @@
     }
 
     .link {
-      margin: 20px;
+      padding: 20px;
+      box-shadow: 0 0px 1px 0px #000;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      color: white;
+      background: #222;
+    }
+
+    a {
+      color: white;
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -50,8 +62,23 @@
 
   <script>
     L.mapbox.accessToken = 'pk.eyJ1Ijoibm9tYWRkZXYiLCJhIjoiY2pwMzJicmNjMGRoZzNxbW5saGF5d2t2eCJ9.SIa-W0ZxIqU726w6KJAw4Q';
+
+    var outdoors = L.mapbox.styleLayer('mapbox://styles/mapbox/outdoors-v11');
+    var dark = L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v10')
+    var satellite = L.mapbox.styleLayer('mapbox://styles/mapbox/satellite-v9')
+
+    var layers = [outdoors, dark, satellite];
+
     var map = L.mapbox.map('map')
-      .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/outdoors-v11'));
+      .addLayer(outdoors)
+
+    var baseMaps = {
+      "Outdoors": outdoors,
+      "Satellite": satellite,
+      "Dark": dark
+    }
+
+    L.control.layers(baseMaps, {}).addTo(map);
 
     // omnivore will AJAX-request this file behind the scenes and parse it:
     // note that there are considerations:
@@ -70,6 +97,7 @@
         enableHighAccuracy: true
       }
     }).addTo(map);
+
 
   </script>
 
