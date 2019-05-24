@@ -28,16 +28,16 @@
           </li>
           {% endif %}
 
-          {% if site.twitter_username %}
+          {% if site.mastodon_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% include icon-mastodon.html username=site.mastodon_username %}
           </li>
           {% endif %}
 
           {% if site.email %}
-            <li>
-              {% include icon-email.html email=site.email %}
-            </li>
+          <li>
+            {% include icon-email.html email=site.email %}
+          </li>
           {% endif %}
         </ul>
         <div>BTW NL381790022B01</div>
