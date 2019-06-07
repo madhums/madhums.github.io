@@ -10,8 +10,10 @@ Here's a bunch of stuff that inspire me.
 - Factfullness by Hans Rosling
 - NonViolent Communication by Marshall B Rosenberg
 - The Most Good You Can Do by Peter Singer
+- Animal Liberation by Peter Singer
 - Into The Wild by Jon Krakauer
 - Man’s Search For Meaning by Viktor Frankl
+- Sapiens by Yuval Noah Harari
 
 ### Initiatives
 - [Questionmark](https://www.thequestionmark.org/en)
@@ -23,13 +25,13 @@ Here's a bunch of stuff that inspire me.
 - [Good country](https://goodcountry.org)
 - [Global vote](https://goodcountry.org/global-vote)
 - [How Good](https://howgood.com/#/)
+- [Extinction Rebellion](https://rebellion.earth)
 
 ### Documentaries
-- Cowspiracy
+- The true cost
+- Forks over knives
 - Sea the truth
 - Meat the truth
-- Forks over knives
-- VeganChallenge de Film
-- The true cost
+- Cowspiracy
 - How capitalism is killing itself
 - The private life of cows
