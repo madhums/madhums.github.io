@@ -75,7 +75,7 @@ hr {
       @include relative-font-size(1.75);
     }
     &:not(.mt-0) {
-      margin-top: 1.8rem;
+      margin-top: 2rem;
     }
   }
 
@@ -86,7 +86,7 @@ hr {
       @include relative-font-size(1.375);
     }
     &:not(.mt-0) {
-      margin-top: 1.6rem;
+      margin-top: 1.8rem;
     }
   }
 
@@ -97,7 +97,7 @@ hr {
       @include relative-font-size(1.125);
     }
     &:not(.mt-0) {
-      margin-top: 1.4rem;
+      margin-top: 1.6rem;
     }
   }
 }
