@@ -17,9 +17,7 @@ I help startups to build scalable businesses, communities and applications using
 3. _Design_ using SketchApp (if needed)
 4. _Code_ it!
 
-I use JavaScript and [Open Source Software](https://en.wikipedia.org/wiki/Open-source_software) (OSS) to implement the solutions. Here's the tech stack I prefer to use: React, React-Native, Node.js and MongoDB.
-
-I not only use OSS to build solutions, but also contribute back. Checkout my github to see my contributions.
+I use JavaScript and [Open Source Software](https://en.wikipedia.org/wiki/Open-source_software) (OSS) to implement the solutions. I not only use OSS to build solutions, but also contribute back. Checkout my github to see my contributions.
 
 If what I do intrigues you, whether it's a completely new idea or an already existing application, drop me a line and I shall get back to you!
 
