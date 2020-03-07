@@ -1,0 +1,174 @@
+body {
+  background-color: #2B2B2B;
+  color: #aaa;
+}
+
+blockquote {
+  color: $grey-color;
+}
+// pre,
+// code {
+//   border: 1px solid $grey-color-light;
+//   background-color: #eef;
+// }
+
+.site-header {
+  border-top: 5px solid #2B2B2B;
+  border-bottom: 1px solid #333;
+}
+
+.site-nav {
+  .page-link {
+    color: #999;
+  }
+
+  @include media-query($on-palm) {
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+  }
+}
+
+.site-footer {
+  border-top: 1px solid #333;
+}
+
+.footer-col-wrapper {
+  color: $grey-color;
+}
+
+.post-meta {
+  color: $grey-color;
+} 
+
+.highlighter-rouge .highlight,
+pre,
+code {
+  background-color: #111;
+  border-radius: 5px;
+}
+
+pre, code {
+  border: 1px solid #111;
+}
+
+.home {
+  a.primary-links {
+    background: #111;
+    color: #999;
+  }
+}
+
+.site-header {
+  background: #242424;
+}
+
+strong,
+em,
+h1, h2, h3, h4, h5, h6 {
+  color: #ccc;
+}
+
+hr { 
+  display: block; 
+  height: 1px;
+  border: 0; 
+  border-top: 1px solid #333;
+}
+
+.tag {
+  background: #444;
+  color: #999;
+}
+
+.site-title {
+  &,
+  &:visited {
+    color: #999;
+  }
+}
+
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: $background-color;
+    color: $text-color;
+  }
+  blockquote {
+    color: $grey-color;
+  }
+  pre,
+  code {
+    border: 1px solid $grey-color-light;
+  }
+
+  .site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+  }
+  
+  .site-nav {
+    .page-link {
+      color: $text-color;
+    }
+  
+    @include media-query($on-palm) {
+      background-color: $background-color;
+      border: 1px solid $grey-color-light;
+    }
+  }
+  
+  .site-footer {
+    border-top: 1px solid $grey-color-light;
+  }
+  
+  .footer-col-wrapper {
+    color: $grey-color;
+  }
+  
+  .post-meta {
+    color: $grey-color;
+  } 
+
+  .highlighter-rouge .highlight,
+  pre,
+  code {
+    background-color: #F6F8FA;
+  }
+
+  .home {
+    a.primary-links {
+      background: #eee;
+    }
+  }
+
+  .site-header {
+    background: #f8f8f8;
+  }
+
+  strong,
+  em,
+  h1, h2, h3, h4, h5, h6 {
+    color: #111;
+  }
+
+  hr {
+    border-top: 1px solid #ddd;
+    color: #fff;
+  }
+
+  .tag {
+    background: $brand-color;
+    color: #fff;
+  }
+
+  .site-title {
+    &,
+    &:visited {
+      color: $grey-color-dark;
+    }
+  }
+}
+
+
+pre {
+  padding: 30px;
+}
