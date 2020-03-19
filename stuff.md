@@ -28,6 +28,8 @@ Here's a bunch of stuff that inspire me.
 - [Extinction Rebellion](https://rebellion.earth)
 
 ### Documentaries
+
+Set1:
 - The true cost
 - Forks over knives
 - Sea the truth
@@ -35,3 +37,18 @@ Here's a bunch of stuff that inspire me.
 - Cowspiracy
 - How capitalism is killing itself
 - The private life of cows
+
+Set2:
+- Official Secrets
+- Fair Game
+- Dirty Wars
+- The Report
+- Citizen Four
+- Risk
+- Brexit: The Uncivil War
+- The Great Hack
+- Dark waters
+
+Set3:
+- I, Daniel Blake
+- Sorry We Missed You
