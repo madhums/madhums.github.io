@@ -4,7 +4,7 @@ title: Work
 permalink: /work/
 ---
 
-Here's a curated list of applications I have worked on in the last 2 years.
+Here's a curated list of projects I have worked on in the last 2 years.
 
 <br/>
 
