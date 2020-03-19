@@ -12,7 +12,6 @@ layout: home
 <p align="center">
   <a class="primary-links" href="/about/">About me</a>
   <a class="primary-links" href="/work/">See my work</a>
-  <a class="primary-links" href="/blog/">Read my blog</a>
 </p>
 
 <br/>
