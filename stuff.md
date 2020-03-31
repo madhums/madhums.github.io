@@ -16,16 +16,30 @@ Here's a bunch of stuff that inspire me.
 - Sapiens by Yuval Noah Harari
 
 ### Initiatives
-- [Questionmark](https://www.thequestionmark.org/en)
+
+Set1:
 - [Our world in data](http://ourworldindata.org)
-- [Lush](https://uk.lush.com/tag/lush-times)
 - [Gapminder](https://gapminder.org)
-- [Open collective](https://opencollective.com/)
+- [Extinction Rebellion](https://rebellion.earth)
+- [HumaneTech](http://humanetech.com/)
+- [EarthSpecies](https://earthspecies.org/)
+
+Set2:
 - [Social Progress Imperative](http://www.socialprogressimperative.org/)
 - [Good country](https://goodcountry.org)
 - [Global vote](https://goodcountry.org/global-vote)
-- [How Good](https://howgood.com/#/)
-- [Extinction Rebellion](https://rebellion.earth)
+- [Open collective](https://opencollective.com/)
+- [Lush](https://uk.lush.com/tag/lush-times)
+- [Questionmark](https://www.thequestionmark.org/en)
+
+### Podcasts
+
+- [Two heartbeats a minute](https://www.npr.org/2020/02/25/809336135/two-heartbeats-a-minute)
+- [Journalism is a moral business](https://theidealists.co/episodes/rob-wijnberg-the-correspondent)
+
+### Talks
+
+- [The need for humanetech by Tristan Harris](https://www.youtube.com/watch?v=YQh2FQ7MZdA)
 
 ### Documentaries
 
