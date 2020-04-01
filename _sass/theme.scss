@@ -23,8 +23,8 @@ blockquote {
   }
 
   @include media-query($on-palm) {
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
+    background-color: #111;
+    border: 1px solid #555;
   }
 }
 
