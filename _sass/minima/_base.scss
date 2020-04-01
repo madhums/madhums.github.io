@@ -209,7 +209,8 @@ pre {
     padding-right: 5px;
   }
 
-  li + li {
-    padding-top: 5px;
+  li {
+    float: left;
+    margin-right: 2rem;
   }
 }
