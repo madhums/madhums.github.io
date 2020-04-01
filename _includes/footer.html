@@ -5,31 +5,31 @@
     <ul class="social-media-list">
       {% if site.github_username %}
       <li>
-        {% include icon-github.html username=site.github_username %}
+        <a href="https://github.com/{{ include.username }}"><span class="icon icon--github">{% include icon-github.svg %}</span></a>
       </li>
       {% endif %}
       
       {% if site.gitlab_username %}
       <li>
-        {% include icon-gitlab.html username=site.gitlab_username %}
+        <a href="https://gitlab.com/{{ include.username }}"><span class="icon icon--gitlab">{% include icon-gitlab.svg %}</span></a>
       </li>
       {% endif %}
 
       {% if site.mastodon_username %}
       <li>
-        {% include icon-mastodon.html username=site.mastodon_username %}
+        <a href="https://mastodon.social/@{{ include.username }}"><span class="icon icon--mastodon">{% include icon-mastodon.svg %}</span></a>
       </li>
       {% endif %}
       
       {% if site.twitter_username %}
       <li>
-        {% include icon-twitter.html username=site.twitter_username %}
+        <a href="https://twitter.com/{{ include.username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a>
       </li>
       {% endif %}
 
       {% if site.email %}
       <li>
-        {% include icon-email.html email=site.email %}
+        <a href="mailto:{{ include.email }}"><span class="icon icon--email">{% include icon-email.svg %}</span></a>
       </li>
       {% endif %}
     </ul>
