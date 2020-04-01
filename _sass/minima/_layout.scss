@@ -139,10 +139,12 @@
   list-style: none;
 
   > li {
-    margin-bottom: 7px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5px;
   }
   .post-meta {
-    display: inline-block;
+    flex-shrink: 0;
     width: 110px;
   }
 }
