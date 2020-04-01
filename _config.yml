@@ -24,7 +24,6 @@ twitter_username: madhums
 github_username:  madhums
 gitlab_username:  madhums
 permalink: /:year/:month/:day/:title/
-disqus_shortname: madhums
 avatar: https://en.gravatar.com/userimage/8685993/ea6d3328112fbddb15d194cfb61a3d50.jpg?size=40
 
 # Build settings
