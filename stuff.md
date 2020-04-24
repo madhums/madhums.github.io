@@ -14,6 +14,7 @@ Here's a bunch of stuff that inspire me.
 - Into The Wild by Jon Krakauer
 - Man’s Search For Meaning by Viktor Frankl
 - Sapiens by Yuval Noah Harari
+- Noam Chomsky
 
 ### Initiatives
 
