@@ -18,7 +18,7 @@ I _Brainstorm_ ideas with product owners, come up with user stories. _Sketch_ th
 
 I use [Open Source Software](https://en.wikipedia.org/wiki/Open-source_software) (OSS) to implement the solutions. I can program in `JavaScript`, `Typescript`, `Python`, `Go` languages. I have used many frameworks, databases, technology and services.
 
-I have recently developed much interest towards data science, machine learning, policy research and political sociology. I am looking for ways to bring all these together.
+I have recently developed much interest towards data science, machine learning, policy research and political sociology. I am looking for ways to bring all these together to create a better fact based, ethical and just world.
 
 I not only use OSS to build solutions, but also like to contribute back. Checkout my github to see my contributions. 
 
