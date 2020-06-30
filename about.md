@@ -16,7 +16,7 @@ I have more than a decade of experience in building applications.
 
 I _Brainstorm_ ideas with product owners, come up with user stories. _Sketch_ the ideas, come up with _user flows_ (I sometimes use parts of [google design sprint](http://designsprintkit.withgoogle.com) here). _Design_ or create _wireframe_ if necessary and _code_ it.
 
-I use [Open Source Software](https://en.wikipedia.org/wiki/Open-source_software) (OSS) to implement the solutions. I can program in `JavaScript`, `Typescript`, `Python`, `Go` languages. I have used many frameworks, databases, technology and services.
+I use [Open Source Software](https://en.wikipedia.org/wiki/Open-source_software) (OSS) to implement the solutions. I can program in `JavaScript`, `Typescript`, `Python`, `Go` languages. I have used many frameworks, databases, technologies and services.
 
 I have recently developed much interest towards data science, machine learning, policy research and political sociology. I am looking for ways to bring all these together to create a better fact based, ethical and just world.
 
