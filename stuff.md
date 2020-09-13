@@ -14,6 +14,9 @@ Here's a bunch of stuff that inspire me.
 - Into The Wild by Jon Krakauer
 - Man’s Search For Meaning by Viktor Frankl
 - Sapiens by Yuval Noah Harari
+- The tibetian book of living and dying by Sogyal Rinpoche
+- Utopia for realists by Rutger Bregman
+- Humankind by Rutger Bregman
 - Noam Chomsky
 
 ### Initiatives
