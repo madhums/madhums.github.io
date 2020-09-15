@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am Madhu, welcome to my site! I am a Freelance Full stack Programmer and a UX Designer currently living in Delft. I love travelling and people. I care about our environment, human & animal rights and wellbeing of everyone and everything. I believe anything is possible and I like to work on stuff that creates a positive impact on our society.
+Hi, I am Madhu, welcome to my site! I am a Freelance Full stack Programmer and a UX Designer currently living in Delft. I love travelling and people. I care about our environment, human & animal rights and wellbeing of everyone and everything. I believe anything is possible (in the realms of our reality ofcourse) and I like to work on stuff that creates a positive impact on our society.
 
 ## What do I do?
 
@@ -20,7 +20,7 @@ I use [Open Source Software](https://en.wikipedia.org/wiki/Open-source_software)
 
 I have recently developed much interest towards data science, machine learning, policy research and political sociology. I am looking for ways to bring all these together to create a better fact based, ethical and just world.
 
-I not only use OSS to build solutions, but also like to contribute back. Checkout my github to see my contributions. 
+I not only use OSS to build solutions, but also like to contribute back. Checkout my github to see my contributions.
 
 If what I do intrigues you, whether it's a completely new idea or an already existing application, drop me a line and I shall get back to you!
 
