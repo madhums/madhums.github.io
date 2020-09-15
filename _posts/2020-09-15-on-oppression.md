@@ -34,10 +34,10 @@ The oppressed are still being oppressed and almost pushed to the brink of extinc
 
 ## References:
 
-- The truth about overpopulation (video)
-- List of countries by homeless population - <https://en.wikipedia.org/wiki/List_of_countries_by_homeless_population>
+- [The truth about overpopulation](https://www.youtube.com/watch?v=FACK2knC08E) (video)
+- [List of countries by homeless population](https://en.wikipedia.org/wiki/List_of_countries_by_homeless_population)
 - Book by Paulo Freire "Pedagogy of the Oppressed"
-- How's life, measuring well being - <https://www.oecd.org/statistics/how-s-life-23089679.htm>
+- [How's life, measuring well being](https://www.oecd.org/statistics/how-s-life-23089679.htm)
 
 - [^education-and-liberation-of-oppressed]: [Education and liberation of oppressed](https://www.ukessays.com/essays/education/education-and-liberation-of-the-oppressed-education-essay.php)
 - [^share-of-population-living-in-extreme-poverty-by-world-region]: [Share of population living in extreme poverty by world region](https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty-by-world-region)
