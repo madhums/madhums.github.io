@@ -32,6 +32,7 @@ It is only possible for us as humanity to make progress if we truly start listen
 
 The oppressed are still being oppressed and almost pushed to the brink of extinction. We need compassion and empathy in the global community, a global solidarity. Only by listening and by giving a voice to the oppressed we can be on the "right" side of history, make progress and cause least suffering. **It should be our moral imperative to make any being (not only humans but also animals, insects any living organism) suffer less**. Climate crisis is not only the story of environmental damage and biodiversity loss but also about [how we treat each other](https://thecorrespondent.com/34/climate-change-is-about-how-we-treat-each-other/348480858-275ce4ca) and a story of social justice.
 
+
 ## References:
 
 - [The truth about overpopulation](https://www.youtube.com/watch?v=FACK2knC08E) (video)
@@ -39,8 +40,8 @@ The oppressed are still being oppressed and almost pushed to the brink of extinc
 - Book by Paulo Freire "Pedagogy of the Oppressed"
 - [How's life, measuring well being](https://www.oecd.org/statistics/how-s-life-23089679.htm)
 
-- [^education-and-liberation-of-oppressed]: [Education and liberation of oppressed](https://www.ukessays.com/essays/education/education-and-liberation-of-the-oppressed-education-essay.php)
-- [^share-of-population-living-in-extreme-poverty-by-world-region]: [Share of population living in extreme poverty by world region](https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty-by-world-region)
-- [^utopia-for-realists]: [Bregman, Rutger. Utopia for Realists (p. 71)](https://www.goodreads.com/book/show/40876575-utopia-for-realists)
-- [^stats-on-homelessness-cbs]: [Statistics on Homelessness in The Netherlands](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80799NED/table?fromstatweb)
-- [^factfullness]: [Factfullness the book](https://www.goodreads.com/book/show/34890015-factfulness)
+[^education-and-liberation-of-oppressed]: [Education and liberation of oppressed](https://www.ukessays.com/essays/education/education-and-liberation-of-the-oppressed-education-essay.php)
+[^share-of-population-living-in-extreme-poverty-by-world-region]: [Share of population living in extreme poverty by world region](https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty-by-world-region)
+[^utopia-for-realists]: [Bregman, Rutger. Utopia for Realists (p. 71)](https://www.goodreads.com/book/show/40876575-utopia-for-realists)
+[^stats-on-homelessness-cbs]: [Statistics on Homelessness in The Netherlands](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80799NED/table?fromstatweb)
+[^factfullness]: [Factfullness the book](https://www.goodreads.com/book/show/34890015-factfulness)
