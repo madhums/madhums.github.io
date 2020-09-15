@@ -8,9 +8,9 @@ description: How NVC can help us as a society to make progress and to reduce opp
 
 Humans have existed on this planet for about 2.5million years with cognitive revolution starting over 70,000 years ago. Our present is just a blip in this landscape, we are the most powerful and the weakest creatures at the same time.
 
-Historically speaking, vast majority of humanity has developed and progressed in a way by which one group has taken advantage of the other, creating different forms of social oppression namely race, class, gender, sex, institutional, economic, colonial and more.
+Historically speaking, vast majority of humanity has developed and progressed in a way by which one group has taken advantage of the other, creating different forms of social oppression[^oppression] namely race, class, gender, sex, institutional, economic, colonial and more.
 
-In 1948 we made a [universal declaration of human rights](https://www.un.org/en/universal-declaration-human-rights/index.html), yet we are far away in putting it into practice. In the UDHR we declare every human has a right to shelter but yet there are so many homeless people in the world. It is estimated that 150 million people are homeless worldwide. [Habitat for Humanity](https://en.wikipedia.org/wiki/Habitat_for_Humanity) estimated in 2015 that 1.6 billion people around the world live in "inadequate shelter". Homelessness is a symptom of broken social structures, of social injustice, of racism which are kinds of oppressions.
+In 1948 we made a [^universal declaration of human rights], yet we are far away in putting it into practice. In the UDHR we declare every human has a right to shelter but yet there are so many homeless people in the world. It is estimated that 150 million people are homeless worldwide. [Habitat for Humanity](https://en.wikipedia.org/wiki/Habitat_for_Humanity) estimated in 2015 that 1.6 billion people around the world live in "inadequate shelter". Homelessness is a symptom of broken social structures, of social injustice, of racism which are kinds of oppressions.
 
 Extreme poverty has gone down by a significant amount in the last few decades [source: [Share of population living in extreme poverty by world region](https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty-by-world-region)]. There is also a very [close link between poverty and homelessness](https://ourworldindata.org/homelessness#poverty-and-homelessness-are-closely-linked). It is said by end of 2100 human population will be around 12 Billion. The sooner humanity comes out of extreme poverty, the sooner population stabilises. So, it is equivalent to say, a solution to overpopulation is eliminating extreme global poverty completely. [source: [Hans Rosling, Factfullness (p. 91)](https://www.goodreads.com/book/show/34890015-factfulness)]
 
@@ -32,18 +32,18 @@ It is only possible for us as humanity to make progress if we truly start listen
 
 The oppressed are still being oppressed and almost pushed to the brink of extinction. We need compassion and empathy in the global community, a global solidarity. Only by listening and by giving a voice to the oppressed we can be on the "right" side of history, make progress and cause least suffering. **It should be our moral imperative to make any being (not only humans but also animals, insects any living organism) suffer less**. Climate crisis is not only the story of environmental damage and biodiversity loss but also about [how we treat each other](https://thecorrespondent.com/34/climate-change-is-about-how-we-treat-each-other/348480858-275ce4ca) and a story of social justice.
 
-References:
+## References:
 
--   UDHR - <https://www.un.org/en/universal-declaration-human-rights/index.html>
--   Oppression - <https://en.wikipedia.org/wiki/Oppression>
--   Education and liberation of oppressed - <https://www.ukessays.com/essays/education/education-and-liberation-of-the-oppressed-education-essay.php>
--   Book by Paulo Freire "Pedagogy of the Oppressed"
--   How's life, measuring well being - <https://www.oecd.org/statistics/how-s-life-23089679.htm>
--   Homelessness - <https://ourworldindata.org/homelessness>
--   Homelessness in The Netherlands - <https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80799NED/table?fromstatweb>
--   List of countries by homeless population - <https://en.wikipedia.org/wiki/List_of_countries_by_homeless_population>
--   Climate change is about how we treat each other - <https://thecorrespondent.com/34/climate-change-is-about-how-we-treat-each-other/348480858-275ce4ca>
--   Why climate change is a civil rights battle - <https://thecorrespondent.com/539/why-climate-change-is-a-civil-rights-battle/5524446543-8a208ac5>
--   Utopia for realists - <https://www.goodreads.com/book/show/40876575-utopia-for-realists>
--   Factfullness - <https://www.goodreads.com/book/show/34890015-factfulness>
--   The truth about overpopulation - <https://www.youtube.com/watch?v=FACK2knC08E>
+- [^universal declaration of human rights]: [universal declaration of human rights](https://www.un.org/en/universal-declaration-human-rights/index.html)
+- [^oppression]: Oppression as defined in [wikipedia](https://en.wikipedia.org/wiki/Oppression)
+- Education and liberation of oppressed - <https://www.ukessays.com/essays/education/education-and-liberation-of-the-oppressed-education-essay.php>
+- Book by Paulo Freire "Pedagogy of the Oppressed"
+- How's life, measuring well being - <https://www.oecd.org/statistics/how-s-life-23089679.htm>
+- Homelessness - <https://ourworldindata.org/homelessness>
+- Homelessness in The Netherlands - <https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80799NED/table?fromstatweb>
+- List of countries by homeless population - <https://en.wikipedia.org/wiki/List_of_countries_by_homeless_population>
+- Climate change is about how we treat each other - <https://thecorrespondent.com/34/climate-change-is-about-how-we-treat-each-other/348480858-275ce4ca>
+- Why climate change is a civil rights battle - <https://thecorrespondent.com/539/why-climate-change-is-a-civil-rights-battle/5524446543-8a208ac5>
+- Utopia for realists - <https://www.goodreads.com/book/show/40876575-utopia-for-realists>
+- Factfullness - <https://www.goodreads.com/book/show/34890015-factfulness>
+- The truth about overpopulation - <https://www.youtube.com/watch?v=FACK2knC08E>
