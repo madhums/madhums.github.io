@@ -5,6 +5,7 @@ body {
 
 blockquote {
   color: $grey-color;
+  border-left: 4px solid #4a4a4a;
 }
 // pre,
 // code {
@@ -38,7 +39,7 @@ blockquote {
 
 .post-meta {
   color: $grey-color;
-} 
+}
 
 .highlighter-rouge .highlight,
 pre,
@@ -68,10 +69,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #ccc;
 }
 
-hr { 
-  display: block; 
+hr {
+  display: block;
   height: 1px;
-  border: 0; 
+  border: 0;
   border-top: 1px solid #333;
 }
 
@@ -94,6 +95,7 @@ hr {
   }
   blockquote {
     color: $grey-color;
+    border-left: 4px solid #e8e8e8;
   }
   pre,
   code {
@@ -104,29 +106,29 @@ hr {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
   }
-  
+
   .site-nav {
     .page-link {
       color: $text-color;
     }
-  
+
     @include media-query($on-palm) {
       background-color: $background-color;
       border: 1px solid $grey-color-light;
     }
   }
-  
+
   .site-footer {
     border-top: 1px solid $grey-color-light;
   }
-  
+
   .footer-col-wrapper {
     color: $grey-color;
   }
-  
+
   .post-meta {
     color: $grey-color;
-  } 
+  }
 
   .highlighter-rouge .highlight,
   pre,
