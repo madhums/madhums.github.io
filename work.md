@@ -13,7 +13,7 @@ Here's a curated list of projects I have worked on in the last few years.
   <span class="post-meta pull-right">2020 - present</span>
 </h2>
 
-Wable wants to improve accessability to drinking water by decentralising services with a high regard to adopt regenerative and sustainable practices that aid ecological and social wellbeing. It envisions to empower the community and integrate water as a social commodity, thus benefiting people and planet.
+Wable improves accessability to drinking water by decentralising services with a high regard to adopt regenerative and sustainable practices that aid ecological and social wellbeing. It envisions to empower the community and integrate water as a social commodity, thus benefiting people and planet.
 
 <img class="img-portfolio" src="https://place-hold.it/200">
 <img class="img-portfolio" src="https://place-hold.it/200">
