@@ -51,7 +51,7 @@ A platform to run Nonviolent Communication courses.
 
 <h2 class="mt-0">
   Redcross
-  <span class="post-meta pull-right">2019 - present</span>
+  <span class="post-meta pull-right">2019 - 2020</span>
 </h2>
 
 During [hackathon for good](https://www.hackathonforgood.org/) in June 2019, we built an application to help volunteers in the field to assess damange and map flood extents easily, where disasters have happened. This took off and I've been volunteering and helping out with the data team at 510.
