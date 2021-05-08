@@ -9,8 +9,29 @@ Here's a curated list of projects I have worked on in the last few years.
 <br/>
 
 <h2 class="mt-0">
+  NVC Social Change stories
+  <span class="post-meta pull-right">2021 - present</span>
+</h2>
+
+A platform to collect all social change stories where NVC has been a part of to influence policy and lessen the punishment/reward systems.
+
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
+
+<p>
+  <span class="tag">node.js</span>
+  <span class="tag">react</span>
+  <span class="tag">ux</span>
+</p>
+
+<a href="https://vic.peacefactory.fr/">View</a>
+
+---
+
+<h2 class="mt-0">
   Wable
-  <span class="post-meta pull-right">2020 - present</span>
+  <span class="post-meta pull-right">2020 - 2021</span>
 </h2>
 
 Wable improves accessability to drinking water by decentralising services with a high regard to adopt regenerative and sustainable practices that aid ecological and social wellbeing. It envisions to empower the community and integrate water as a social commodity, thus benefiting people and planet.
@@ -30,7 +51,7 @@ Wable improves accessability to drinking water by decentralising services with a
 
 <h2 class="mt-0">
   Peace Factory
-  <span class="post-meta pull-right">2020 - present</span>
+  <span class="post-meta pull-right">2020 - 2021</span>
 </h2>
 
 A platform to run Nonviolent Communication courses.
