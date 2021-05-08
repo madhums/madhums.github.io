@@ -20,12 +20,13 @@ A platform to collect all social change stories where NVC has been a part of to 
 <img class="img-portfolio" src="https://place-hold.it/200">
 
 <p>
-  <span class="tag">node.js</span>
-  <span class="tag">react</span>
+  <span class="tag">next.js</span>
+  <span class="tag">postgres</span>
   <span class="tag">ux</span>
+  <span class="tag">community</span>
 </p>
 
-<a href="https://vic.peacefactory.fr/">View</a>
+<a href="https://github.com/nvcsocialchange">View</a>
 
 ---
 
