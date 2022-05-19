@@ -9,6 +9,27 @@ Here's a curated list of projects I have worked on in the last few years.
 <br/>
 
 <h2 class="mt-0">
+  Questionmark
+  <span class="post-meta pull-right">2022 - </span>
+</h2>
+
+Questionmark carries independent research into the environmental friendliness, labour conditions, animal welfare and health aspects of consumer products.
+
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
+
+<p>
+  <span class="tag">next.js</span>
+  <span class="tag">react</span>
+  <span class="tag">ux</span>
+</p>
+
+<a href="https://www.thequestionmark.org/">View</a>
+
+---
+
+<h2 class="mt-0">
   NVC Social Change stories
   <span class="post-meta pull-right">2021 - present</span>
 </h2>
@@ -106,24 +127,3 @@ Extinction Rebellion is a non-violent decentralised socio political movement to 
 <img class="img-portfolio" src="https://place-hold.it/200">
 
 <a href="https://extinctionrebellion.nl/">View</a>
-
----
-
-<h2 class="mt-0">
-  Questionmark
-  <span class="post-meta pull-right">2016 - 2019</span>
-</h2>
-
-Questionmark carries independent research into the environmental friendliness, labour conditions, animal welfare and health aspects of consumer products.
-
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-
-<p>
-  <span class="tag">next.js</span>
-  <span class="tag">react</span>
-  <span class="tag">ux</span>
-</p>
-
-<a href="https://www.thequestionmark.org/">View</a>
