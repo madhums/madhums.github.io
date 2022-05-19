@@ -10,7 +10,7 @@ Here's a curated list of projects I have worked on in the last few years.
 
 <h2 class="mt-0">
   Questionmark
-  <span class="post-meta pull-right">2022 - </span>
+  <span class="post-meta pull-right">2022 - present</span>
 </h2>
 
 Questionmark carries independent research into the environmental friendliness, labour conditions, animal welfare and health aspects of consumer products.
