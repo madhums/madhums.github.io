@@ -23,6 +23,8 @@ Questionmark carries independent research into the environmental friendliness, l
   <span class="tag">next.js</span>
   <span class="tag">react</span>
   <span class="tag">ux</span>
+  <span class="tag">ruby</span>
+  <span class="tag">rails</span>
 </p>
 
 <a href="https://www.thequestionmark.org/">View</a>
