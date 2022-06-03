@@ -22,9 +22,11 @@ Questionmark carries independent research into the environmental friendliness, l
 <p>
   <span class="tag">next.js</span>
   <span class="tag">react</span>
+  <span class="tag">react native</span>
   <span class="tag">ux</span>
   <span class="tag">ruby</span>
   <span class="tag">rails</span>
+  <span class="tag">data science</span>
 </p>
 
 <a href="https://www.thequestionmark.org/">View</a>
@@ -108,7 +110,7 @@ During [hackathon for good](https://www.hackathonforgood.org/) in June 2019, we 
 <p>
   <span class="tag">node.js</span>
   <span class="tag">react</span>
-  <span class="tag">react-native</span>
+  <span class="tag">react native</span>
   <span class="tag">ux</span>
   <span class="tag">gis</span>
 </p>
