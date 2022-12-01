@@ -13,7 +13,7 @@ Here's a curated list of projects I have worked on in the last few years.
   <span class="post-meta pull-right">2022 - present</span>
 </h2>
 
-Questionmark carries independent research into the environmental friendliness, labour conditions, animal welfare and health aspects of consumer products.
+Questionmark is a non-profit independent research foundation which carries research on environmental friendliness, labour conditions, animal welfare and health aspects of food products available in the supermarkets.
 
 <img class="img-portfolio" src="https://place-hold.it/200">
 <img class="img-portfolio" src="https://place-hold.it/200">
@@ -76,11 +76,11 @@ Wable improves accessability to drinking water by decentralising services with a
 ---
 
 <h2 class="mt-0">
-  Peace Factory
+  NVC Rusinga
   <span class="post-meta pull-right">2020 - 2021</span>
 </h2>
 
-A platform to run Nonviolent Communication courses.
+A school which is going to be built on NVC principles.
 
 <img class="img-portfolio" src="https://place-hold.it/200">
 <img class="img-portfolio" src="https://place-hold.it/200">
@@ -92,7 +92,7 @@ A platform to run Nonviolent Communication courses.
   <span class="tag">ux</span>
 </p>
 
-<a href="https://vic.peacefactory.fr/">View</a>
+<a href="https://nvcrusinga.school">View</a>
 
 ---
 
