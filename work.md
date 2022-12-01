@@ -21,11 +21,11 @@ Questionmark is a non-profit independent research foundation which carries resea
 
 <p>
   <span class="tag">next.js</span>
-  <span class="tag">react</span>
   <span class="tag">react native</span>
   <span class="tag">ux</span>
   <span class="tag">ruby</span>
   <span class="tag">rails</span>
+  <span class="tag">postgresql</span>
   <span class="tag">data science</span>
 </p>
 
