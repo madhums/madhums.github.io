@@ -56,6 +56,25 @@ A platform to collect all social change stories where NVC has been a part of to 
 ---
 
 <h2 class="mt-0">
+  NVC Rusinga
+  <span class="post-meta pull-right">2021 - present</span>
+</h2>
+
+A school which is going to be built on NVC principles.
+
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
+<img class="img-portfolio" src="https://place-hold.it/200">
+
+<p>
+  <span class="tag">wordpress</span>
+</p>
+
+<a href="https://nvcrusinga.school">View</a>
+
+---
+
+<h2 class="mt-0">
   Wable
   <span class="post-meta pull-right">2020 - 2021</span>
 </h2>
@@ -72,27 +91,6 @@ Wable improves accessability to drinking water by decentralising services with a
 </p>
 
 <a href="https://wable.org/">View</a>
-
----
-
-<h2 class="mt-0">
-  NVC Rusinga
-  <span class="post-meta pull-right">2020 - 2021</span>
-</h2>
-
-A school which is going to be built on NVC principles.
-
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-
-<p>
-  <span class="tag">node.js</span>
-  <span class="tag">react</span>
-  <span class="tag">ux</span>
-</p>
-
-<a href="https://nvcrusinga.school">View</a>
 
 ---
 
