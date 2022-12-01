@@ -51,7 +51,7 @@ A platform to collect all social change stories where NVC has been a part of to 
   <span class="tag">community</span>
 </p>
 
-<a href="https://nvc.socialchange.io">View</a>
+<a href="https://cp-socialchange-web.herokuapp.com/">View</a>
 
 ---
 
