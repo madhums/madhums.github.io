@@ -15,10 +15,6 @@ Here's a curated list of projects I have worked on in the last few years.
 
 Questionmark is a non-profit independent research foundation which carries research on environmental friendliness, labour conditions, animal welfare and health aspects of food products available in the supermarkets.
 
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-
 <p>
   <span class="tag">next.js</span>
   <span class="tag">react native</span>
@@ -40,10 +36,6 @@ Questionmark is a non-profit independent research foundation which carries resea
 
 A platform to collect all social change stories where NVC has been a part of to influence policy and lessen the punishment/reward systems.
 
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-
 <p>
   <span class="tag">next.js</span>
   <span class="tag">postgres</span>
@@ -62,10 +54,6 @@ A platform to collect all social change stories where NVC has been a part of to 
 
 A school which is going to be built on NVC principles.
 
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-
 <p>
   <span class="tag">wordpress</span>
 </p>
@@ -80,10 +68,6 @@ A school which is going to be built on NVC principles.
 </h2>
 
 Wable improves accessability to drinking water by decentralising services with a high regard to adopt regenerative and sustainable practices that aid ecological and social wellbeing. It envisions to empower the community and integrate water as a social commodity, thus benefiting people and planet.
-
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
 
 <p>
   <span class="tag">python</span>
@@ -100,10 +84,6 @@ Wable improves accessability to drinking water by decentralising services with a
 </h2>
 
 During [hackathon for good](https://www.hackathonforgood.org/) in June 2019, we built an application to help volunteers in the field to assess damange and map flood extents easily, where disasters have happened. This took off and I've been volunteering and helping out with the data team at 510.
-
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
 
 <p>
   <span class="tag">node.js</span>
@@ -123,9 +103,5 @@ During [hackathon for good](https://www.hackathonforgood.org/) in June 2019, we 
 </h2>
 
 Extinction Rebellion is a non-violent decentralised socio political movement to prevent risk of social collapse and mass extinction. I am a volunteer helping with Tech, raising awareness about environmental, human rights and power imbalance issues in our society.
-
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
-<img class="img-portfolio" src="https://place-hold.it/200">
 
 <a href="https://extinctionrebellion.nl/">View</a>
