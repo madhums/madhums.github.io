@@ -9,8 +9,26 @@ Here's a curated list of projects I have worked on in the last few years.
 <br/>
 
 <h2 class="mt-0">
+  NVC Social Change stories
+  <span class="post-meta pull-right">2021 - present</span>
+</h2>
+
+A platform to collect all social change stories where NVC has been a part of to influence policy and lessen the punishment/reward systems.
+
+<p>
+  <span class="tag">ruby</span>
+  <span class="tag">rails</span>
+  <span class="tag">postgres</span>
+  <span class="tag">ux</span>
+</p>
+
+<a href="https://socialchange.herokuapp.com/">View</a>
+
+---
+
+<h2 class="mt-0">
   Questionmark
-  <span class="post-meta pull-right">2022 - present</span>
+  <span class="post-meta pull-right">2022 - 2023</span>
 </h2>
 
 Questionmark is a non-profit independent research foundation which carries research on environmental friendliness, labour conditions, animal welfare and health aspects of food products available in the supermarkets.
@@ -26,24 +44,6 @@ Questionmark is a non-profit independent research foundation which carries resea
 </p>
 
 <a href="https://www.thequestionmark.org/">View</a>
-
----
-
-<h2 class="mt-0">
-  NVC Social Change stories
-  <span class="post-meta pull-right">2021 - present</span>
-</h2>
-
-A platform to collect all social change stories where NVC has been a part of to influence policy and lessen the punishment/reward systems.
-
-<p>
-  <span class="tag">next.js</span>
-  <span class="tag">postgres</span>
-  <span class="tag">ux</span>
-  <span class="tag">community</span>
-</p>
-
-<a href="https://cp-socialchange-web.herokuapp.com/">View</a>
 
 ---
 
