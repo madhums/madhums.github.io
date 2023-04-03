@@ -25,7 +25,7 @@ twitter_username: madhums
 github_username:  madhums
 gitlab_username:  madhums
 permalink: /:year/:month/:day/:title/
-avatar: https://en.gravatar.com/userimage/8685993/ea6d3328112fbddb15d194cfb61a3d50.jpg?size=40
+avatar: https://en.gravatar.com/userimage/134344243/f48e3d8601cf429f63eaa084d35e9138.jpeg?size=200
 
 # Build settings
 markdown: kramdown
