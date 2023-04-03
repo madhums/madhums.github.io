@@ -33,6 +33,11 @@ blockquote {
   border-top: 1px solid #333;
 }
 
+.social-media-list {
+  display: flex;
+  justify-content: center;
+}
+
 .footer-col-wrapper {
   color: $grey-color;
 }
