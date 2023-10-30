@@ -48,11 +48,11 @@ Questionmark is a non-profit independent research foundation which carries resea
 ---
 
 <h2 class="mt-0">
-  NVC Rusinga
+  NVC School Rusinga
   <span class="post-meta pull-right">2021 - present</span>
 </h2>
 
-A school which is going to be built on NVC principles.
+A school which is being built on NVC principles.
 
 <p>
   <span class="tag">wordpress</span>
