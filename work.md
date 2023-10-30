@@ -22,7 +22,7 @@ A platform to collect all social change stories where NVC has been a part of to 
   <span class="tag">ux</span>
 </p>
 
-<a href="https://socialchange.herokuapp.com/">View</a>
+<a href="https://socialchange.fly.dev/">View</a>
 
 ---
 
