@@ -13,7 +13,7 @@ Here's a curated list of projects I have worked on in the last few years.
   <span class="post-meta pull-right">2021 - present</span>
 </h2>
 
-A platform to collect all social change stories where NVC has been a part of to influence policy and lessen the punishment/reward systems.
+A hub for narratives of social transformation, where Nonviolent Communication (NVC) serves as a cornerstone, aiming to shape policy and drive systemic reform.
 
 <p>
   <span class="tag">ruby</span>
