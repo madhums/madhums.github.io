@@ -22,7 +22,7 @@ A hub for narratives of social transformation, where Nonviolent Communication (N
   <span class="tag">ux</span>
 </p>
 
-<a href="https://socialchange.fly.dev/">View</a>
+<a href="https://nvcsocialchange.org/">View</a>
 
 ---
 
