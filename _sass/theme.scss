@@ -43,14 +43,16 @@ blockquote {
 }
 
 .post-meta {
+  font-size: medium;
   color: $grey-color;
+  margin-right: 10px;
 }
 
 .highlighter-rouge .highlight,
 pre,
 code {
   background-color: #111;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 pre, code {
@@ -133,6 +135,8 @@ hr {
 
   .post-meta {
     color: $grey-color;
+    margin-right: 10px;
+    display: inline-block;
   }
 
   .highlighter-rouge .highlight,

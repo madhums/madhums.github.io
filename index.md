@@ -6,7 +6,7 @@ layout: home
 ---
 
 <br/>
-<h2 align="center">Hi! <br/> I am a Freelance Full stack Programmer <br/>and a UX Designer</h2>
+<h3 align="center">Hi! <br/> I am a Freelance Full stack Programmer <br/>and a UX Designer</h3>
 <br/>
 
 <p align="center">

@@ -77,6 +77,7 @@ DEPENDENCIES
   jekyll (~> 4.3)
   jekyll-feed (~> 0.17)
   minima (> 2.0)
+  rouge (~> 4.2)
   tzinfo-data
   webrick (~> 1.8)
 

@@ -2,8 +2,9 @@
 
 // Define defaults for each variable.
 
-$base-font-family: 'EB Garamond', serif !default;
-$base-font-size:   22px !default;
+$base-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
+$code-font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+$base-font-size:   20px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
@@ -27,8 +28,8 @@ $on-laptop:        800px !default;
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
+//     padding-right: calc($spacing-unit / 2);
+//     padding-left: calc($spacing-unit / 2);
 //   }
 // }
 @mixin media-query($device) {
@@ -45,7 +46,7 @@ $on-laptop:        800px !default;
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting",
+  "rouge_github_dark",
   "overrides",
   "theme"
 ;
