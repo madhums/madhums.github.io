@@ -4,9 +4,63 @@ title: Work
 permalink: /work/
 ---
 
-Here's a curated list of projects I have worked on in the last few years.
+Here's a curated list of projects, ongoing oand past.
 
 <br/>
+
+---
+
+<h2 class="mt-0">
+  Big-Cloud migration
+  <span class="post-meta pull-right">2024 - present</span>
+</h2>
+
+I started out with a new idea this year of helping tech companies reduce their cloud costs. Simply moving away from BigCloud providers to other cloud providers in itself reduces the costs significantly. I successfully helped a client move away from MongoDB atlas to another provider with self-managed infra, this reduced their costs by 90%. If you are one of those companies using AWS/Google/MS and want to save some costs, feel free to reach out to me.
+
+<p>
+  <span class="tag">infra</span>
+  <span class="tag">docker</span>
+  <span class="tag">cloud</span>
+</p>
+
+<a href="mailto:cloud-migration@nomaddev.co">Contact</a>
+
+---
+
+<h2 class="mt-0">
+  Waiting for Cows
+  <span class="post-meta pull-right">2022 - present</span>
+</h2>
+
+Waiting for Cows is an interactive storytelling project that explores the complex relationship between humans, animals and technology.
+
+<p>
+  <span class="tag">ruby</span>
+  <span class="tag">rails</span>
+  <span class="tag">postgres</span>
+</p>
+
+<a href="https://www.affectlab.org/waiting-for-cows/">View</a>
+
+---
+
+<h2 class="mt-0">
+  Bikeflip
+  <span class="post-meta pull-right">2024 - present</span>
+</h2>
+
+Bikeflip upcycles children's bicycles in The Netherlands. My role as Tech lead is to ensure all systems are running smoothly.
+
+<p>
+  <span class="tag">ruby</span>
+  <span class="tag">rails</span>
+  <span class="tag">postgres</span>
+  <span class="tag">javascript</span>
+</p>
+
+<a href="https://bikeflip.nl">View</a>
+
+---
 
 <h2 class="mt-0">
   NVC Social Change stories
@@ -44,64 +98,3 @@ Questionmark is a non-profit independent research foundation which carries resea
 </p>
 
 <a href="https://www.thequestionmark.org/">View</a>
-
----
-
-<h2 class="mt-0">
-  NVC School Rusinga
-  <span class="post-meta pull-right">2021 - present</span>
-</h2>
-
-A school which is being built on NVC principles.
-
-<p>
-  <span class="tag">wordpress</span>
-</p>
-
-<a href="https://nvcrusinga.school">View</a>
-
----
-
-<h2 class="mt-0">
-  Wable
-  <span class="post-meta pull-right">2020 - 2021</span>
-</h2>
-
-Wable improves accessability to drinking water by decentralising services with a high regard to adopt regenerative and sustainable practices that aid ecological and social wellbeing. It envisions to empower the community and integrate water as a social commodity, thus benefiting people and planet.
-
-<p>
-  <span class="tag">python</span>
-  <span class="tag">node.js</span>
-</p>
-
-<a href="https://wable.org/">View</a>
-
----
-
-<h2 class="mt-0">
-  Redcross
-  <span class="post-meta pull-right">2019 - 2020</span>
-</h2>
-
-During [hackathon for good](https://www.hackathonforgood.org/) in June 2019, we built an application to help volunteers in the field to assess damange and map flood extents easily, where disasters have happened. This took off and I've been volunteering and helping out with the data team at 510.
-
-<p>
-  <span class="tag">node.js</span>
-  <span class="tag">react</span>
-  <span class="tag">react native</span>
-  <span class="tag">ux</span>
-  <span class="tag">gis</span>
-</p>
-
-<a href="https://510.global/">View</a>
-
----
-
-<h2 class="mt-0">
-  Extinction Rebellion
-  <span class="post-meta pull-right">2019 - 2020</span>
-</h2>
-
-Extinction Rebellion is a non-violent decentralised socio political movement to prevent risk of social collapse and mass extinction. I am a volunteer helping with Tech, raising awareness about environmental, human rights and power imbalance issues in our society.
-
-<a href="https://extinctionrebellion.nl/">View</a>
