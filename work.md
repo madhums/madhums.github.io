@@ -15,7 +15,7 @@ Here's a curated list of projects, ongoing oand past.
   <span class="post-meta pull-right">2024 - present</span>
 </h2>
 
-I started out with a new idea this year of helping tech companies reduce their cloud costs. Simply moving away from BigCloud providers to other cloud providers in itself reduces the costs significantly. I successfully helped a client move away from MongoDB atlas to another provider with self-managed infra, this reduced their costs by 90%. If you are one of those companies using AWS/Google/MS and want to save some costs, feel free to reach out to me.
+I started out with a new idea this year of helping tech companies reduce their cloud costs. I successfully helped a client move away from MongoDB atlas to another provider with self-managed infra, this reduced their costs by 90%. If you are one of those companies using Big-Cloud and tired of paying rediculously high amounts of cloud bills and want to save some of these costs, feel free to reach out to me.
 
 <p>
   <span class="tag">infra</span>
