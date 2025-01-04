@@ -4,7 +4,7 @@ title: Work
 permalink: /work/
 ---
 
-Here's a curated list of projects, ongoing oand past.
+Here's a curated list of projects, ongoing and past.
 
 <br/>
 
