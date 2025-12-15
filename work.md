@@ -32,7 +32,7 @@ I started out with a new idea this year of helping tech companies reduce their c
   <span class="post-meta pull-right">2022 - 2025</span>
 </h2>
 
-Waiting for Cows is an interactive storytelling project that explores the complex relationship between humans, animals and technology. My role as a creative coder is to gather all the data from the farm, build custom interfaces for the farmer and give a real time simulation at the art installation.
+Waiting for Cows is an interactive storytelling project that explores the complex relationship between humans, animals and technology. My role as a creative coder was to gather all the data from the farm, build custom interfaces for the farmer and give a real time simulation at the art installation.
 
 This project was nominated for the 2025 Gouden Kalf (Dutch Oscars) in the Digital Culture Production category.
 
