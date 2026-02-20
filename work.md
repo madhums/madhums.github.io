@@ -20,7 +20,10 @@ I started out with a new idea this year of helping tech companies reduce their c
 <p>
   <span class="tag">infra</span>
   <span class="tag">docker</span>
-  <span class="tag">cloud</span>
+  <span class="tag">postgresql</span>
+  <span class="tag">redis</span>
+  <span class="tag">mongodb</span>
+  <span class="tag">high-availability</span>
 </p>
 
 <a href="mailto:cloud-migration@nomaddev.co">Contact</a>
