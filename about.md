@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am Madhu, welcome to my site! I am a Freelance Full stack Programmer and a UX Designer currently living in Delft.
+Hi, I am Madhu, welcome to my site! I am a Freelance SRE, Full Stack Programmer and a UX Designer currently living in Delft.
 
 ## What do I do?
 
