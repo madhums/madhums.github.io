@@ -6,7 +6,6 @@ permalink: /work/
 
 Here's a curated list of projects, ongoing and past.
 
-<br/>
 
 ---
 
