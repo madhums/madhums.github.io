@@ -14,7 +14,7 @@ Here's a curated list of projects, ongoing and past.
   <span class="post-meta pull-right">2024 - present</span>
 </h2>
 
-I started out with a new idea this year of helping tech companies reduce their cloud costs. I successfully helped a client move away from MongoDB atlas to another provider with self-managed infra, this reduced their costs by 90%. If you are one of those companies using Big-Cloud and tired of paying rediculously high amounts of cloud bills and want to save some of these costs, feel free to reach out to me.
+I started out with a new idea this year of helping tech companies reduce their cloud costs. I successfully helped a client move away from MongoDB atlas to another provider with self-managed infra, this reduced their costs by 90%. If you are one of those companies using Big-Cloud and tired of paying rediculously high amounts of cloud bills and want to save some of these costs, feel free to reach out to me. (Overtime we've moved AWS RDS, Elasticache services as well)
 
 <p>
   <span class="tag">infra</span>
@@ -25,7 +25,7 @@ I started out with a new idea this year of helping tech companies reduce their c
   <span class="tag">high-availability</span>
 </p>
 
-<a href="mailto:cloud-migration@nomaddev.co">Contact</a>
+<a href="https://bigtechmigration.eu/" target="_blank">Contact</a>
 
 ---
 
